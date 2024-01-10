@@ -1,15 +1,23 @@
-/* @use './abstracts' as abstracts;
-@use './base' as base; */
+/* @use './abstracts';
+@use './base'; */
+
+@import './partials/navbar';
+@import './partials/body';
+@import './partials/why';
+@import './partials/benefits';
+@import './partials/prices';
+@import './partials/contact';
+@import './partials/footer';
 
 
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+
+   padding: 0;
+}
 body {
    min-width: 320px;
 }
 
-
-* {
-    /* background-color: rgb(219, 194, 32); */
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}

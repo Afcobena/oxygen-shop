@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;600;700;900&family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;600;700;900&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;600;700;900&family=Raleway:wght@300&display=swap");
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -59,24 +61,16 @@
 }
 
 .why {
-  border: 2px solid blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* &__figure {
-
-      &--img {
-
-      }
-  } */
 }
 .why__open--title {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 3.063em;
-  /* line-height: 3.563em; */
   text-align: center;
   padding-bottom: 27px;
 }
@@ -104,6 +98,7 @@
 }
 .why__platform {
   width: 100%;
+  padding-bottom: 6em;
 }
 .why__platform--title {
   font-family: "Raleway";
@@ -173,9 +168,6 @@
   position: absolute;
   top: 13px;
   right: 17px;
-  /* &--img {
-
-  } */
 }
 .why__platform--grid__card2--amount {
   padding-top: 0.8em;
@@ -212,9 +204,6 @@
   position: absolute;
   top: 5px;
   right: 3px;
-  /* &--img {
-
-  } */
 }
 .why__platform--grid__card3--amount {
   padding-top: 0.8em;
@@ -233,6 +222,135 @@
   line-height: 1.25em;
   text-align: center;
   color: #A5A5A5;
+}
+
+.benefits {
+  width: 100%;
+  background-color: #F7F7F7;
+  padding-bottom: 6.5em;
+}
+.benefits__row1 {
+  max-width: 70.25em;
+  max-height: 23.125em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.5em;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #E8E9ED;
+}
+.benefits__row1--left {
+  padding: 5em 2em;
+  max-width: 42%;
+}
+.benefits__row1--left__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 2.25em;
+  padding-bottom: 0.9em;
+}
+.benefits__row1--left__text {
+  font-family: "Open", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding-bottom: 3em;
+}
+.benefits__row1--left__line {
+  border: 0.125em solid #FB3B64;
+  max-width: 20.43em;
+  margin: 0;
+}
+.benefits__row1--right {
+  position: relative;
+  padding-top: 0.2em;
+}
+.benefits__row1--right__figure2 {
+  position: absolute;
+  top: 2.7em;
+  right: 2em;
+}
+.benefits__row2 {
+  max-width: 70.25em;
+  max-height: 23.125em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.3em;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #E8E9ED;
+}
+.benefits__row2--right {
+  padding: 5em 2em;
+  max-width: 42%;
+}
+.benefits__row2--right__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 2.25em;
+  padding-bottom: 0.9em;
+}
+.benefits__row2--right__text {
+  font-family: "Open", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding-bottom: 3em;
+}
+.benefits__row2--right__line {
+  border: 0.125em solid #08A6E4;
+  max-width: 20.43em;
+  margin: 0;
+}
+.benefits__row2--left {
+  position: relative;
+}
+.benefits__row2--left__figure2 {
+  position: absolute;
+  top: 1em;
+  left: -0.2em;
+}
+.benefits__row3 {
+  max-width: 70.25em;
+  max-height: 23.125em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.3em;
+}
+.benefits__row3--left {
+  max-height: 23.125em;
+  padding: 5em 2em;
+  margin: 0;
+  max-width: 58%;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #E8E9ED;
+}
+.benefits__row3--left__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 2.25em;
+  padding-bottom: 0.9em;
+  max-width: 74%;
+  margin: 0;
+}
+.benefits__row3--left__text {
+  font-family: "Open", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding-bottom: 3em;
+  max-width: 74%;
+  margin: 0;
+}
+.benefits__row3--left__line {
+  border: 0.125em solid #55DFB4;
+  max-width: 20.43em;
+  margin: 0;
+}
+.benefits__row3--right {
+  padding-left: 4.8em;
+  max-height: 23.125em;
 }
 
 * {

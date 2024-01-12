@@ -404,7 +404,8 @@
   padding-bottom: 5em;
 }
 .prices__grid--card1__list--green {
-  list-style: none;
+  max-width: fit-content;
+  list-style-image: url(../../public/icons/prices/Checkbox.svg);
   font-family: "Open", sans-serif;
   font-weight: 400;
   font-size: 0.875em;
@@ -412,8 +413,8 @@
   padding-bottom: 1.8em;
 }
 .prices__grid--card1__list--red {
-  list-style: none;
-  /* list-style-image: url('public/icons/prices/Checkbox.svg'); */
+  max-width: fit-content;
+  list-style-image: url(../../public/icons/prices/Cross.svg);
   font-family: "Open", sans-serif;
   font-weight: 400;
   font-size: 0.875em;
@@ -479,7 +480,8 @@
   padding-bottom: 5em;
 }
 .prices__grid--card2__list--green {
-  list-style: none;
+  max-width: fit-content;
+  list-style-image: url(../../public/icons/prices/Checkbox.svg);
   font-family: "Open", sans-serif;
   font-weight: 400;
   font-size: 0.875em;
@@ -487,8 +489,8 @@
   padding-bottom: 1.8em;
 }
 .prices__grid--card2__list--red {
-  list-style: none;
-  /* list-style-image: url('public/icons/prices/Checkbox.svg'); */
+  max-width: fit-content;
+  list-style-image: url(../../public/icons/prices/Cross.svg);
   font-family: "Open", sans-serif;
   font-weight: 400;
   font-size: 0.875em;
@@ -554,16 +556,8 @@
   padding-bottom: 5em;
 }
 .prices__grid--card3__list--green {
-  list-style: none;
-  font-family: "Open", sans-serif;
-  font-weight: 400;
-  font-size: 0.875em;
-  text-align: center;
-  padding-bottom: 1.8em;
-}
-.prices__grid--card3__list--red {
-  list-style: none;
-  /* list-style-image: url('public/icons/prices/Checkbox.svg'); */
+  max-width: fit-content;
+  list-style-image: url(../../public/icons/prices/Checkbox.svg);
   font-family: "Open", sans-serif;
   font-weight: 400;
   font-size: 0.875em;

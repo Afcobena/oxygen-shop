@@ -62,7 +62,8 @@
 
 
                 &--green {
-                    list-style: none;
+                    max-width: fit-content;
+                    list-style-image: url(../../public/icons/prices/Checkbox.svg);
                     font-family: 'Open', sans-serif;
                     font-weight: 400;
                     font-size: 0.875em;    
@@ -71,8 +72,8 @@
                 }
 
                 &--red {
-                    list-style: none;
-                    /* list-style-image: url('public/icons/prices/Checkbox.svg'); */
+                    max-width: fit-content;
+                    list-style-image: url(../../public/icons/prices/Cross.svg);
                     font-family: 'Open', sans-serif;
                     font-weight: 400;
                     font-size: 0.875em;    
@@ -155,7 +156,8 @@
 
 
                 &--green {
-                    list-style: none;
+                    max-width: fit-content;
+                    list-style-image: url(../../public/icons/prices/Checkbox.svg);
                     font-family: 'Open', sans-serif;
                     font-weight: 400;
                     font-size: 0.875em;    
@@ -164,8 +166,8 @@
                 }
 
                 &--red {
-                    list-style: none;
-                    /* list-style-image: url('public/icons/prices/Checkbox.svg'); */
+                    max-width: fit-content;
+                    list-style-image: url(../../public/icons/prices/Cross.svg);
                     font-family: 'Open', sans-serif;
                     font-weight: 400;
                     font-size: 0.875em;    
@@ -245,7 +247,8 @@
 
 
                 &--green {
-                    list-style: none;
+                    max-width: fit-content;
+                    list-style-image: url(../../public/icons/prices/Checkbox.svg);
                     font-family: 'Open', sans-serif;
                     font-weight: 400;
                     font-size: 0.875em;    
@@ -253,15 +256,6 @@
                     padding-bottom: 1.8em;
                 }
 
-                &--red {
-                    list-style: none;
-                    /* list-style-image: url('public/icons/prices/Checkbox.svg'); */
-                    font-family: 'Open', sans-serif;
-                    font-weight: 400;
-                    font-size: 0.875em;    
-                    text-align: center;
-                    padding-bottom: 1.8em;
-                }
             }
 
                 &__button {

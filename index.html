@@ -218,8 +218,8 @@
     </section>
     <section class="contact" id="contact">
       <div class="contact__info">
-        <h2>Any questions?</h2>
-        <p>Leave your email address or call us!</p>
+        <h2 class="contact__info--title">Any questions?</h2>
+        <p class="contact__info--text">Leave your email address or call us!</p>
         <div class="contact__info--data">
           <div class="contact__info--data__left">
             <figure class="contact__info--data__left--figure">
@@ -246,14 +246,14 @@
       <div class="contact__us">
         <form class="contact__us--form">
           <div class="contact__us--form__inputs">
-            <label for="name">NAME</label>
+            <label for="name" id="label-name">NAME</label>
             <input type="text" id="name" name="name" />
-            <label for="email">EMAIL</label>
-            <input type="text" id="lname" name="email" />
+            <label for="email" id="label-email">EMAIL</label>
+            <input type="text" id="email" name="email" />
           </div>
           <div class="contact__us--form__policy">
-            <input type="checkbox" id="check" />
-            <p>
+            <input type="checkbox" id="check" class="contact__us--form__policy--input" />
+            <p class="contact__us--form__policy--text">
               I hereby give consent for my personal data included in my
               application to be processed for the purposes of the recruitment
               process under the European Parliament’s and Council of the
@@ -263,7 +263,7 @@
               95/46/EC (Data Protection Directive)
             </p>
           </div>
-          <input type="submit" value="Send" />
+          <input class="contact__us--form__button" type="submit" value="Send" />
         </form>
       </div>
     </section>

@@ -7,6 +7,8 @@
 .contact {
     max-width: 896px;
     margin-top: 11em;
+    margin-bottom: 5em;
+
     display: flex;
 
 
@@ -32,8 +34,8 @@
             flex-wrap: wrap;
 
             &__left {
+                margin: 0;
                 display: flex;
-                justify-content: center;
                 align-items: center;
                 gap: 0.7em;
 

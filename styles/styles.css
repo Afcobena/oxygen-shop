@@ -1,32 +1,31 @@
 /* @use './abstracts';
 @use './base'; */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;600;700;900&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;600;700;900&family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;600;700;900&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap");
 .navbar {
+  z-index: 1;
   overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   min-width: 320px;
-  height: 4.37em;
   box-shadow: 0px 3px 6px grey;
-  padding: 0 8.5em;
   background-color: #FFFFFF;
 }
 .navbar__container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   max-width: 1626px;
 }
 .navbar__logo {
@@ -59,7 +58,6 @@
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1626px;
   min-width: 320px;
   margin-top: 12.5em;
 }
@@ -597,6 +595,7 @@
 .contact {
   max-width: 896px;
   margin-top: 11em;
+  margin-bottom: 5em;
   display: flex;
 }
 .contact__info {
@@ -619,8 +618,8 @@
   flex-wrap: wrap;
 }
 .contact__info--data__left {
+  margin: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 0.7em;
 }
@@ -713,6 +712,48 @@
 }
 .contact__us--form__button:hover {
   box-shadow: 0px 13px 12px rgba(7, 172, 230, 0.2901960784);
+}
+
+.footer {
+  width: 100%;
+  box-shadow: 6px 4px 33px 18px rgba(128, 128, 128, 0.27);
+  background-color: #ffffff;
+  max-height: 89px;
+}
+.footer__container {
+  max-width: 1626px;
+  margin: 0 auto;
+  padding: 0 137px;
+  display: flex;
+  align-items: center;
+}
+.footer__logo {
+  margin: 0;
+  padding: 0.9em 0;
+}
+.footer__logo--title {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 1.7em;
+  padding-bottom: 0.4em;
+  color: #08a6e4;
+}
+.footer__logo--rights {
+  font-family: "Open", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #a5a5a5;
+}
+.footer__social {
+  display: inline-block;
+  margin-right: 0;
+}
+.footer__social--figure1 {
+  display: inline-block;
+  padding-right: 1.3em;
+}
+.footer__social--figure2 {
+  display: inline-block;
 }
 
 * {

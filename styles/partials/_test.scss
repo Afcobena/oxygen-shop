@@ -296,51 +296,8 @@
 
             @media only screen and (max-width: 500px) {
                 position: relative;
-                
             }
             
-            &__figure {
-
-                &--img {
-                    @media only screen and (max-width: 500px) {
-                        display: none;
-                    }
-                }
-            }
-
-            &__vmobile {
-
-
-                &--mobile1 {
-                    display: none;
-    
-                    @media only screen and (max-width: 500px) {
-                        display: block;
-                        margin: 0 auto;
-                        border-radius: 4px;
-                        box-shadow: 0px 0px 5px  #E8E9ED;
-    
-                        position: absolute;
-                        right: -7.45em;
-                        bottom: -7em;
-
-                    }
-                }
-    
-                &--mobile2 {
-                    display: none;
-    
-                    @media only screen and (max-width: 500px) {
-                        display: block;
-                        margin: 0 auto;
-    
-                        position: absolute;
-                        right: -6em;
-                        bottom: -9.5em;
-                        
-                    }
-                }
-            }
 
 
         }

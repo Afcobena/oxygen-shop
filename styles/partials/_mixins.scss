@@ -1,0 +1,37 @@
+// MEDIA QUERYS
+
+$breackpoints: (
+	'three__hundred': 365px,
+	'four__hundred_exactly': 400px,
+	'four__hundred': 481px,
+	'five__hundred': 560px,
+	'six__hundred': 640px,
+	'seven__hundred': 770px,
+	'eight__hundred--five': 805px,
+	'mobile__navbar': 832px,
+	'eight__hundred': 870px,
+	'nine__hundred': 960px,
+	'thousand': 1015px,
+	'eleven__hundred': 1100px,
+	'eleven__hundred__thirty': 1130px,
+	'twelve__hundred': 1200px,
+	'thirteen_hundred': 1380px,
+	'fifteen_hundred': 1500px,
+	'large_screens': 1501px,
+);
+
+@mixin three__hundred {
+	@media screen and (max-width: map-get($breackpoints, 'three__hundred')) {
+		@content;
+	}
+}
+@mixin four__hundred_exactly  {
+	@media screen and (max-width: map-get($breackpoints, 'four__hundred_exactly')) {
+		@content;
+	}
+}
+@mixin four__hundred {
+	@media screen and (max-width: map-get($breackpoints, 'four__hundred')) {
+		@content;
+	}
+}

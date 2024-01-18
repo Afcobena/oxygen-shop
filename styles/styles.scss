@@ -1,6 +1,3 @@
-/* @use './abstracts';
-@use './base'; */
-
 @import './partials/navbar';
 @import './partials/body';
 @import './partials/why';
@@ -16,7 +13,6 @@
 
     box-sizing: border-box;
     margin: 0 auto;
-
    padding: 0;
 
 }

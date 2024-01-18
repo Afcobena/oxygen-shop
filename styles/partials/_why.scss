@@ -12,6 +12,13 @@
 
     &__open {
 
+        @media only screen and (max-width: 500px) {
+
+            max-width: 310px;
+            margin-left: 33px;
+            margin-right: 33px;
+        }
+
         &--title {
             font-family: 'Raleway';
             font-weight: 400;
@@ -34,8 +41,8 @@
 
         &--button {
             background-color: #08A6E4;
-            width: 440px;
-            height: 67px;
+
+            padding: 1em 8em;
             border: 1px solid #08A6E4;
             border-radius: 40px;
             box-shadow: 0px 13px 6px  #07ACE64A;
@@ -46,17 +53,25 @@
             line-height: 1.375em;
             text-align: center;
             color: #FFFF;
+
+            @media only screen and (max-width: 500px) {
+            padding: 1em 5.5em;
+            }
         }
     }
 
     &__figure {
 
+
         &--img {
+            width: 100%;
+            object-position: 25% 50%;
+
             @media only screen and (max-width: 500px) {
 
-                width: 100%;
-                max-height: 267px;
-              }
+            }
+
+
         }
 
             @media only screen and (max-width: 500px) {
@@ -67,6 +82,11 @@
     &__platform {
         width: 100%;
         padding-bottom: 6em;
+
+        @media only screen and (max-width: 500px) {
+            padding-bottom: 4em;
+            }
+        
 
         &--title {
             font-family: 'Raleway';
@@ -89,10 +109,10 @@
             padding-top: 4.82em;
             max-width: 1060px;
 
-            @media only screen and (max-width: 500px) {
+             @media only screen and (max-width: 500px) {
                 flex-direction: column;
                 padding-top: 2.8em;
-              }
+              } 
 
             &__card1 {
             display: flex;
@@ -100,6 +120,10 @@
             justify-content: center;
             align-items: center;
             position: relative;
+
+            @media only screen and (max-width: 500px) {
+                padding-bottom: 2em;
+                }
 
 
                 &--logo {
@@ -117,9 +141,6 @@
                         right: 16px;
 
 
-                        /* &--img {
-
-                        } */
                     }
                 }
 
@@ -151,6 +172,10 @@
                 justify-content: center;
                 align-items: center;
                 position: relative;
+
+                @media only screen and (max-width: 500px) {
+                    padding-bottom: 2em;
+                    }
 
 
                 &--logo {

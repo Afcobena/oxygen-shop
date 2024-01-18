@@ -7,11 +7,11 @@
     width: 100%;
     background-color: #F7F7F7;
     padding-bottom: 6.5em;
-    /* border: 2px solid red; */
 
-    @media only screen and (max-width: 500px) {
+
+     @media only screen and (max-width: 500px) {
         width: 314px;
-      }
+      } 
 
 
     &__row1 {
@@ -26,20 +26,20 @@
         border-radius: 4px;
         box-shadow: 0px 0px 5px  #E8E9ED;
 
-        @media only screen and (max-width: 500px) {
+         @media only screen and (max-width: 500px) {
             flex-direction: column;
             position: relative;
-        }
+        } 
 
 
         &--left {
             padding: 5em 2em;
             max-width: 42%;
 
-            @media only screen and (max-width: 500px) {
+             @media only screen and (max-width: 500px) {
                 max-width: 100%;
                 padding-top: 12em;
-            }
+            } 
 
             &__title {
                 font-family: 'Raleway';
@@ -47,9 +47,9 @@
                 font-size: 2.25em;
                 padding-bottom: 0.9em;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     font-size: 1.875em;
-                }
+                } 
             }
 
             &__text {
@@ -58,10 +58,10 @@
                 font-size: 1em;    
                 padding-bottom: 3em;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     font-size: 0.875em;
                     padding-top: 1.7em;
-                }
+                } 
             }
 
             &__line {
@@ -69,9 +69,9 @@
                 max-width: 20.43em;
                 margin: 0;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     display: none;
-                }
+                } 
             }
         }
 
@@ -81,28 +81,28 @@
 
 
 
-            @media only screen and (max-width: 500px) {
+             @media only screen and (max-width: 500px) {
                 position: absolute;
                 padding-top: 0.2em;
                 padding-left: 7em;
 
-            }
+            } 
             
             &__figure1 {
 
                 &--img {
-                    @media only screen and (max-width: 500px) {
+                     @media only screen and (max-width: 500px) {
                         display: none;
-                    }
+                    } 
                 }
             }
 
             &__mobile {
                 display: none;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     display: block;
-                }
+                } 
             }
 
 
@@ -112,9 +112,9 @@
                 right: 2em;
 
                 &--img {
-                    @media only screen and (max-width: 500px) {
+                     @media only screen and (max-width: 500px) {
                         max-width: 192px;
-                    }
+                    } 
                 }
             }
 
@@ -133,20 +133,20 @@
         border-radius: 4px;
         box-shadow: 0px 0px 5px  #E8E9ED;
 
-        @media only screen and (max-width: 500px) {
+         @media only screen and (max-width: 500px) {
             flex-direction: column;
             position: relative;
-        }
+        } 
 
 
         &--right {
             padding: 5em 2em;
             max-width: 42%;
 
-            @media only screen and (max-width: 500px) {
+             @media only screen and (max-width: 500px) {
                 max-width: 100%;
                 padding-top: 2em;
-            }
+            } 
 
             &__title {
                 font-family: 'Raleway';
@@ -154,9 +154,9 @@
                 font-size: 2.25em;
                 padding-bottom: 0.9em;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     font-size: 1.875em;
-                }
+                } 
             }
 
             &__text {
@@ -165,9 +165,9 @@
                 font-size: 1em;    
                 padding-bottom: 3em;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     font-size: 0.875em;
-                }
+                } 
             }
 
             &__line {
@@ -175,9 +175,9 @@
                 max-width: 20.43em;
                 margin: 0;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     display: none;
-                }
+                } 
             }
 
         }
@@ -189,18 +189,18 @@
             &__figure1 {
 
                 &--img {
-                    @media only screen and (max-width: 500px) {
+                     @media only screen and (max-width: 500px) {
                         display: none;
-                    }
+                    } 
                 }
             }
 
             &__mobile {
                 display: none;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     display: block;
-                }
+                } 
             }
 
 
@@ -210,9 +210,9 @@
                 left: -0.2em;
 
                 &--img {
-                    @media only screen and (max-width: 500px) {
+                     @media only screen and (max-width: 500px) {
                         max-width: 192px;
-                    }
+                    } 
                 }
             }
 
@@ -229,12 +229,12 @@
         align-items: center;
         margin-top: 2.3em;
 
-        @media only screen and (max-width: 500px) {
+         @media only screen and (max-width: 500px) {
             flex-direction: column;
             position: relative;
             border-radius: none;
             box-shadow: none;
-        }
+        } 
 
         &--left {
             max-height: 23.125em;
@@ -245,10 +245,10 @@
             border-radius: 4px;
             box-shadow: 0px 0px 5px  #E8E9ED;
 
-            @media only screen and (max-width: 500px) {
+             @media only screen and (max-width: 500px) {
                 max-width: 100%;
                 padding-top: 2em;
-            }
+            } 
 
 
             &__title {
@@ -259,9 +259,9 @@
                 max-width: 74%;
                 margin: 0;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     font-size: 1.875em;
-                }
+                } 
 
             }
 
@@ -273,9 +273,9 @@
                 max-width: 74%;
                 margin: 0;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     font-size: 0.875em;
-                }
+                } 
             }
 
             &__line {
@@ -283,9 +283,9 @@
                 max-width: 20.43em;
                 margin: 0;
 
-                @media only screen and (max-width: 500px) {
+                 @media only screen and (max-width: 500px) {
                     display: none;
-                }
+                } 
             }
 
         }
@@ -294,17 +294,17 @@
             padding-left: 4.8em;
             max-height: 23.125em;
 
-            @media only screen and (max-width: 500px) {
+             @media only screen and (max-width: 500px) {
                 position: relative;
                 
-            }
+            } 
             
             &__figure {
 
                 &--img {
-                    @media only screen and (max-width: 500px) {
+                     @media only screen and (max-width: 500px) {
                         display: none;
-                    }
+                    } 
                 }
             }
 
@@ -314,7 +314,7 @@
                 &--mobile1 {
                     display: none;
     
-                    @media only screen and (max-width: 500px) {
+                     @media only screen and (max-width: 500px) {
                         display: block;
                         margin: 0 auto;
                         border-radius: 4px;
@@ -324,13 +324,13 @@
                         right: -7.45em;
                         bottom: -7em;
 
-                    }
+                    } 
                 }
     
                 &--mobile2 {
                     display: none;
     
-                    @media only screen and (max-width: 500px) {
+                     @media only screen and (max-width: 500px) {
                         display: block;
                         margin: 0 auto;
     
@@ -338,7 +338,7 @@
                         right: -6em;
                         bottom: -9.5em;
                         
-                    }
+                    } 
                 }
             }
 

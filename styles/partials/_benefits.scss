@@ -9,9 +9,7 @@
     padding-bottom: 6.5em;
 
 
-     @media only screen and (max-width: 500px) {
-        width: 314px;
-      } 
+
 
 
     &__row1 {
@@ -29,6 +27,7 @@
          @media only screen and (max-width: 500px) {
             flex-direction: column;
             position: relative;
+            margin: 45px 33px;
         } 
 
 
@@ -61,6 +60,7 @@
                  @media only screen and (max-width: 500px) {
                     font-size: 0.875em;
                     padding-top: 1.7em;
+                    padding-bottom: 2em;
                 } 
             }
 
@@ -136,6 +136,7 @@
          @media only screen and (max-width: 500px) {
             flex-direction: column;
             position: relative;
+            margin: 45px 33px;
         } 
 
 
@@ -234,6 +235,7 @@
             position: relative;
             border-radius: none;
             box-shadow: none;
+            margin: 45px 33px;
         } 
 
         &--left {

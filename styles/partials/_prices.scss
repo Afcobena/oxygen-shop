@@ -1,309 +1,423 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap");
 
 .prices {
-    width: 100%;
-    max-height: 714px;
+  width: 100%;
+  max-height: 714px;
 
-    &__title {
-        font-family: 'Raleway';
-        font-weight: 400;
-        font-size: 2.25em;
-        text-align: center;
-        padding-top: 3.5em;
-        padding-bottom: 2.2em;
+  @media only screen and (max-width: 500px) {
+    max-height: 100%;
+  }
+
+  &__title {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 2.25em;
+    text-align: center;
+    padding-top: 3.5em;
+    padding-bottom: 2.2em;
+
+    @media only screen and (max-width: 500px) {
+      padding-top: 1.7em;
     }
+  }
 
-    &__grid {
-        max-width: 81.25em;
+  &__grid {
+    max-width: 81.25em;
+    display: flex;
+    flex-wrap: wrap;
+
+    &--card1 {
+      border: 1px solid #fb3b64;
+      width: 372px;
+      max-height: 461px;
+      position: relative;
+
+      border-radius: 18px;
+      box-shadow: 0px 0px 5px #e8e9ed;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.07);
+        box-shadow: 3px 8px 11px 1px rgba(251, 59, 100, 0.27);
+      }
+
+      @media only screen and (max-width: 500px) {
+        max-width: 293px;
+        min-height: 251px;
+        margin-bottom: 4em;
+
         display: flex;
-        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
 
-        &--card1 {
+        &:hover {
+          transform: scale(1.15);
+          box-shadow: 3px 8px 11px 1px rgba(251, 59, 100, 0.27);
+        }
+      }
 
-            border: 1px solid #FB3B64;
-            width: 372px;
-            max-height: 461px;
-            position: relative;
-
-            border-radius: 18px;
-            box-shadow: 0px 0px 5px  #E8E9ED;
-            transition: all 0.3s ease-in-out;
-
-            &:hover {
-                transform: scale(1.07);
-                box-shadow: 3px 8px 11px 1px rgba(251, 59, 100, 0.27);
-            }
-
-            &__title {
-                font-family: 'Raleway';
-                font-weight: 700;
-                font-size: 1.25em;    
-                text-align: center;
-                padding: 1em 0;
-            }
-
-            &__amount {
-
-                &--number {
-                    font-family: 'Open', sans-serif;
-                    font-weight: 300;
-                    font-size: 2.875em;    
-                    text-align: center;
-                    padding-bottom: 1.8em;
-                    color: #FB3B64;
-                }
-            }
-
-            &__list {
-                padding-bottom: 5em;
-
-
-                &--green {
-                    max-width: fit-content;
-                    list-style-image: url(../../public/icons/prices/Checkbox.svg);
-                    font-family: 'Open', sans-serif;
-                    font-weight: 400;
-                    font-size: 0.875em;    
-                    text-align: center;
-                    padding-bottom: 1.8em;
-                }
-
-                &--red {
-                    max-width: fit-content;
-                    list-style-image: url(../../public/icons/prices/Cross.svg);
-                    font-family: 'Open', sans-serif;
-                    font-weight: 400;
-                    font-size: 0.875em;    
-                    text-align: center;
-                    padding-bottom: 1.8em;
-                }
-            }
-
-                &__button {
-                    width: 150px;
-                    height: 50px;
-                    position: absolute;
-                    bottom: -1.9em;
-                    right: 8.9em;
-                    border: #EB476E;
-                    border-radius: 23px;
-                    background-color: #EB476E;
-    
-                    font-family: 'Open', sans-serif;
-                    font-weight: 700;
-                    font-size: 0.813em;    
-                    text-align: center;
-                    color: #FFF;
-
-                    transition: all 0.3s ease-in-out;
-            
-
-                    &:hover {
-                        box-shadow: 0px 13px 12px 1px rgba(235, 71, 110, 0.27);
-                    }
-    
-                }
-
+      &__info {
+        @media only screen and (max-width: 500px) {
+          width: 49%;
         }
 
-
-        &--card2 {
-            border: 1px solid #07ACE6;
-            width: 372px;
-            max-height: 461px;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-
-            border-radius: 18px;
-            box-shadow: 0px 0px 5px  #E8E9ED;
-            transition: all 0.3s ease-in-out;
-
-            &:hover {
-                transform: scale(1.07);
-                box-shadow: 3px 8px 11px 1px rgba(7, 172, 230, 0.27);
-            }
-
-            &__title {
-                font-family: 'Raleway';
-                font-weight: 700;
-                font-size: 1.25em;    
-                text-align: center;
-                padding: 1em 0;
-            }
-
-            &__amount2 {
-                padding-bottom: 1.8em;
-
-                &--number {
-                    font-family: 'Open', sans-serif;
-                    font-weight: 300;
-                    font-size: 2.875em;    
-                    text-align: center;
-                    color: #07ACE6;
-                    padding-bottom: 0.2em;
-                }
-
-                &--offer {
-                    font-family:'Raleway';
-                    font-weight: 700;
-                    font-size: 0.75em;    
-                    text-align: center;
-                    padding-bottom: 3.1em;
-                }
-            }
-
-            &__list {
-                padding-bottom: 5em;
-
-
-                &--green {
-                    max-width: fit-content;
-                    list-style-image: url(../../public/icons/prices/Checkbox.svg);
-                    font-family: 'Open', sans-serif;
-                    font-weight: 400;
-                    font-size: 0.875em;    
-                    text-align: center;
-                    padding-bottom: 1.8em;
-                }
-
-                &--red {
-                    max-width: fit-content;
-                    list-style-image: url(../../public/icons/prices/Cross.svg);
-                    font-family: 'Open', sans-serif;
-                    font-weight: 400;
-                    font-size: 0.875em;    
-                    text-align: center;
-                    padding-bottom: 1.8em;
-                }
-            }
-
-                &__button {
-                    width: 150px;
-                    height: 50px;
-                    position: absolute;
-                    bottom: -1.9em;
-                    right: 8.9em;
-                    border: #07ACE6;
-                    border-radius: 23px;
-                    background-color: #07ACE6;
-    
-                    font-family: 'Open', sans-serif;
-                    font-weight: 700;
-                    font-size: 0.813em;    
-                    text-align: center;
-                    color: #FFF;
-
-                    transition: all 0.3s ease-in-out;
-            
-
-                    &:hover {
-                        box-shadow: 3px 8px 11px 1px rgba(7, 172, 230, 0.27);
-            
-                    }
-    
-                }
-            
+        &--title {
+          font-family: "Raleway";
+          font-weight: 700;
+          font-size: 1.25em;
+          text-align: center;
+          padding: 1em 0;
         }
 
-        &--card3 {
-            border: 1px solid #55DFB4;
-            width: 372px;
-            max-height: 461px;
-            position: relative;
-            display: flex;
-            flex-direction: column;
+        &--amount {
+          &__number {
+            font-family: "Open", sans-serif;
+            font-weight: 300;
+            font-size: 2.875em;
+            text-align: center;
+            padding-bottom: 1.8em;
+            color: #fb3b64;
 
-            border-radius: 18px;
-            box-shadow: 0px 0px 5px  #E8E9ED;
-            transition: all 0.3s ease-in-out;
-
-            &:hover {
-                transform: scale(1.07);
-                box-shadow: 3px 8px 11px 1px rgba(85, 223, 180, 0.27)
+            @media only screen and (max-width: 500px) {
+              padding-bottom: 0;
             }
-
-            &__title {
-                font-family: 'Raleway';
-                font-weight: 700;
-                font-size: 1.25em;    
-                text-align: center;
-                padding: 1em 0;
-            }
-
-            &__amount2 {
-                padding-bottom: 1.8em;
-
-                &--number {
-                    font-family: 'Open', sans-serif;
-                    font-weight: 300;
-                    font-size: 2.875em;    
-                    text-align: center;
-                    color: #55DFB4;
-                    padding-bottom: 0.2em;
-                }
-
-                &--offer {
-                    font-family:'Raleway';
-                    font-weight: 700;
-                    font-size: 0.75em;    
-                    text-align: center;
-                    padding-bottom: 3.1em;
-                }
-            }
-
-            &__list {
-                padding-bottom: 5em;
-
-
-                &--green {
-                    max-width: fit-content;
-                    list-style-image: url(../../public/icons/prices/Checkbox.svg);
-                    font-family: 'Open', sans-serif;
-                    font-weight: 400;
-                    font-size: 0.875em;    
-                    text-align: center;
-                    padding-bottom: 1.8em;
-                }
-
-            }
-
-                &__button {
-                    width: 150px;
-                    height: 50px;
-                    position: absolute;
-                    bottom: -1.9em;
-                    right: 8.9em;
-                    border: #55DFB4;
-                    border-radius: 23px;
-                    background-color: #55DFB4;
-    
-                    font-family: 'Open', sans-serif;
-                    font-weight: 700;
-                    font-size: 0.813em;    
-                    text-align: center;
-                    color: #FFF;
-
-                    transition: all 0.3s ease-in-out;
-            
-
-                    &:hover {
-                        box-shadow: 0px 13px 12px 1px rgba(85, 223, 180, 0.27);
-                    }
-    
-                }
-            
-
-
+          }
         }
+      }
+
+      &__list {
+        @media only screen and (max-width: 500px) {
+          width: 49%;
+          display: inline-block;
+          list-style-position: inside;
+        }
+
+        &--green {
+          max-width: fit-content;
+          list-style-image: url(../../public/icons/prices/Checkbox.svg);
+          font-family: "Open", sans-serif;
+          font-weight: 400;
+          font-size: 0.875em;
+          text-align: center;
+          padding-bottom: 1.8em;
+
+          @media only screen and (max-width: 500px) {
+            margin: 0;
+            text-align: left;
+          }
+        }
+
+        &--red {
+          max-width: fit-content;
+          list-style-image: url(../../public/icons/prices/Cross.svg);
+          font-family: "Open", sans-serif;
+          font-weight: 400;
+          font-size: 0.875em;
+          text-align: center;
+          padding-bottom: 1.8em;
+
+          @media only screen and (max-width: 500px) {
+            margin: 0;
+            text-align: left;
+          }
+        }
+      }
+
+      &__button {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        bottom: -1.9em;
+        right: 8.9em;
+        border: #eb476e;
+        border-radius: 23px;
+        background-color: #eb476e;
+
+        font-family: "Open", sans-serif;
+        font-weight: 700;
+        font-size: 0.813em;
+        text-align: center;
+        color: #fff;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          box-shadow: 0px 13px 12px 1px rgba(235, 71, 110, 0.27);
+        }
+
+        @media only screen and (max-width: 500px) {
+          right: 5.5em;
+        }
+      }
     }
 
+    &--card2 {
+      border: 1px solid #07ace6;
+      width: 372px;
+      max-height: 461px;
+      position: relative;
 
+      border-radius: 18px;
+      box-shadow: 0px 0px 5px #e8e9ed;
+      transition: all 0.3s ease-in-out;
 
+      &:hover {
+        transform: scale(1.07);
+        box-shadow: 3px 8px 11px 1px rgba(7, 172, 230, 0.27);
+      }
 
+      @media only screen and (max-width: 500px) {
+        max-width: 293px;
+        min-height: 251px;
+        margin-bottom: 4em;
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        &:hover {
+          transform: scale(1.15);
+          box-shadow: 3px 8px 11px 1px rgba(7, 172, 230, 0.27);
+        }
+      }
+
+      &__info {
+        @media only screen and (max-width: 500px) {
+          width: 49%;
+        }
+
+        &--title {
+          font-family: "Raleway";
+          font-weight: 700;
+          font-size: 1.25em;
+          text-align: center;
+          padding: 1em 0;
+
+          @media only screen and (max-width: 500px) {
+            font-size: 1.15em;
+          }
+        }
+
+        &--amount2 {
+          padding-bottom: 1.8em;
+
+          @media only screen and (max-width: 500px) {
+            padding-bottom: 0;
+          }
+
+          &__number {
+            font-family: "Open", sans-serif;
+            font-weight: 300;
+            font-size: 2.875em;
+            text-align: center;
+            color: #07ace6;
+            padding-bottom: 0.2em;
+
+            @media only screen and (max-width: 500px) {
+              padding-bottom: 0;
+            }
+          }
+
+          &__offer {
+            font-family: "Raleway";
+            font-weight: 700;
+            font-size: 0.75em;
+            text-align: center;
+            padding-bottom: 3.1em;
+          }
+        }
+      }
+
+      &__list {
+        @media only screen and (max-width: 500px) {
+          width: 49%;
+          display: inline-block;
+          list-style-position: inside;
+        }
+
+        &--green {
+          max-width: fit-content;
+          list-style-image: url(../../public/icons/prices/Checkbox.svg);
+          font-family: "Open", sans-serif;
+          font-weight: 400;
+          font-size: 0.875em;
+          text-align: center;
+          padding-bottom: 1.8em;
+
+          @media only screen and (max-width: 500px) {
+            margin: 0;
+            text-align: left;
+          }
+        }
+
+        &--red {
+          max-width: fit-content;
+          list-style-image: url(../../public/icons/prices/Cross.svg);
+          font-family: "Open", sans-serif;
+          font-weight: 400;
+          font-size: 0.875em;
+          text-align: center;
+          padding-bottom: 1.8em;
+
+          @media only screen and (max-width: 500px) {
+            margin: 0;
+            text-align: left;
+          }
+        }
+      }
+
+      &__button {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        bottom: -1.9em;
+        right: 8.9em;
+        border: #07ace6;
+        border-radius: 23px;
+        background-color: #07ace6;
+
+        font-family: "Open", sans-serif;
+        font-weight: 700;
+        font-size: 0.813em;
+        text-align: center;
+        color: #fff;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          box-shadow: 3px 8px 11px 1px rgba(7, 172, 230, 0.27);
+        }
+
+        @media only screen and (max-width: 500px) {
+          right: 5.5em;
+        }
+      }
+    }
+
+    &--card3 {
+      border: 1px solid #55dfb4;
+      width: 372px;
+      max-height: 461px;
+      position: relative;
+
+      border-radius: 18px;
+      box-shadow: 0px 0px 5px #e8e9ed;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.07);
+        box-shadow: 3px 8px 11px 1px rgba(85, 223, 180, 0.27);
+      }
+
+      @media only screen and (max-width: 500px) {
+        max-width: 293px;
+        min-height: 251px;
+        margin-bottom: 4em;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+          transform: scale(1.15);
+          box-shadow: 3px 8px 11px 1px rgba(251, 59, 100, 0.27);
+        }
+      }
+
+      &__info {
+        @media only screen and (max-width: 500px) {
+          width: 49%;
+        }
+
+        &--title {
+          font-family: "Raleway";
+          font-weight: 700;
+          font-size: 1.25em;
+          text-align: center;
+          padding: 1em 0;
+        }
+
+        &--amount3 {
+          padding-bottom: 1.8em;
+
+          @media only screen and (max-width: 500px) {
+            padding-bottom: 0;
+          }
+
+          &__number {
+            font-family: "Open", sans-serif;
+            font-weight: 300;
+            font-size: 2.875em;
+            text-align: center;
+            color: #55dfb4;
+            padding-bottom: 0.2em;
+
+            @media only screen and (max-width: 500px) {
+                padding-bottom: 0;
+            }
+          }
+
+          &__offer {
+            font-family: "Raleway";
+            font-weight: 700;
+            font-size: 0.75em;
+            text-align: center;
+            padding-bottom: 3.1em;
+          }
+        }
+      }
+
+      &__list {
+        @media only screen and (max-width: 500px) {
+            width: 49%;
+            display: inline-block;
+            list-style-position: inside;
+          }
+
+        &--green {
+          max-width: fit-content;
+          list-style-image: url(../../public/icons/prices/Checkbox.svg);
+          font-family: "Open", sans-serif;
+          font-weight: 400;
+          font-size: 0.875em;
+          text-align: center;
+          padding-bottom: 1.8em;
+
+          @media only screen and (max-width: 500px) {
+            margin: 0;
+            text-align: left;
+          }
+        }
+      }
+
+      &__button {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        bottom: -1.9em;
+        right: 8.9em;
+        border: #55dfb4;
+        border-radius: 23px;
+        background-color: #55dfb4;
+
+        font-family: "Open", sans-serif;
+        font-weight: 700;
+        font-size: 0.813em;
+        text-align: center;
+        color: #fff;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          box-shadow: 0px 13px 12px 1px rgba(85, 223, 180, 0.27);
+        }
+
+        @media only screen and (max-width: 500px) {
+            right: 5.5em;
+          }
+      }
+    }
+  }
 }

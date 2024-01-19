@@ -6,7 +6,6 @@
   width: 100%;
   box-shadow: 6px 4px 33px 18px  rgba(128, 128, 128, 0.27);
   background-color: #ffffff;
-  max-height: 89px;
 
   &__container {
     max-width: 1626px;
@@ -14,11 +13,20 @@
     padding: 0 137px;
     display: flex;
     align-items: center;
+
+    @media only screen and (max-width: 500px) {
+      padding: 0 17px;
+  } 
+    
   }
 
   &__logo {
     margin: 0;
     padding: 0.9em 0;
+
+    @media only screen and (max-width: 500px) {
+      width: 70%;
+  } 
 
     &--title {
       font-family: "Raleway";
@@ -39,6 +47,10 @@
   &__social {
     display: inline-block;
     margin-right: 0;
+
+    @media only screen and (max-width: 500px) {
+      width: 24%;
+  } 
 
     &--figure1 {
       display: inline-block;

@@ -19,7 +19,7 @@
   width: 100%;
   min-width: 320px;
   box-shadow: 0px 3px 6px grey;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .navbar__container {
   display: flex;
@@ -31,7 +31,12 @@
   font-size: 2em;
   font-weight: 300;
   line-height: 2.31em;
-  color: #08A6E4;
+  color: #08a6e4;
+}
+@media only screen and (max-width: 500px) {
+  .navbar__logo {
+    width: 70%;
+  }
 }
 .navbar__list {
   width: 565px;
@@ -42,7 +47,7 @@
 }
 @media only screen and (max-width: 500px) {
   .navbar__list {
-    display: none;
+    width: fit-content;
   }
 }
 .navbar__list--link {
@@ -53,8 +58,23 @@
   letter-spacing: 3.28px;
   text-align: center;
   text-decoration: none;
-  color: #A5A5A5;
+  color: #a5a5a5;
 }
+@media only screen and (max-width: 500px) {
+  .navbar__list--link {
+    display: none;
+  }
+}
+.navbar__list--button {
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .navbar__list--button {
+    display: block;
+    border: none;
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -974,6 +994,7 @@
   .contact {
     display: block;
     margin: 0 33px;
+    margin-bottom: 3.5em;
   }
 }
 .contact__info {
@@ -1118,7 +1139,6 @@
   width: 100%;
   box-shadow: 6px 4px 33px 18px rgba(128, 128, 128, 0.27);
   background-color: #ffffff;
-  max-height: 89px;
 }
 .footer__container {
   max-width: 1626px;
@@ -1127,9 +1147,19 @@
   display: flex;
   align-items: center;
 }
+@media only screen and (max-width: 500px) {
+  .footer__container {
+    padding: 0 17px;
+  }
+}
 .footer__logo {
   margin: 0;
   padding: 0.9em 0;
+}
+@media only screen and (max-width: 500px) {
+  .footer__logo {
+    width: 70%;
+  }
 }
 .footer__logo--title {
   font-family: "Raleway";
@@ -1147,6 +1177,11 @@
 .footer__social {
   display: inline-block;
   margin-right: 0;
+}
+@media only screen and (max-width: 500px) {
+  .footer__social {
+    width: 24%;
+  }
 }
 .footer__social--figure1 {
   display: inline-block;

@@ -1,73 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap");
 
 .navbar {
-    z-index: 1;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-width: 320px;
+  z-index: 1;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 320px;
+
+  box-shadow: 0px 3px 6px grey;
+  background-color: #ffffff;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1626px;
+
+  }
+
+  &__logo {
+    font-family: "Raleway";
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 2.31em;
+    color: #08a6e4;
+    @media only screen and (max-width: 500px) {
+        width: 70%;
+    }
+  }
+
+  &__list {
+    width: 565px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: 500px) {
+        width: fit-content;
+      }
+
+
     
-    box-shadow: 0px 3px 6px  grey;
-    background-color: #FFFFFF;
-
-
-    
-    &__container {
-
-        display: flex;
-        justify-content: space-between;
-        max-width: 1626px;
-
+    &--link {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 0.688em;
+        line-height: 0.938em;
+        letter-spacing: 3.28px;
+        text-align: center;
+        text-decoration: none;
+        color: #a5a5a5;
         @media only screen and (max-width: 500px) {
-    }
-        
-    }
-
-
-
-    &__logo {
-        
-        font-family: 'Raleway';
-        font-size: 2em;
-        font-weight: 300;
-        line-height: 2.31em;
-        color: #08A6E4;
-        @media only screen and (max-width: 500px) {
-    }
-    }
-
-    &__list {
-
-        width: 565px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-
-        @media only screen and (max-width: 500px) {
-            display: none;
-    }
-
-        &--link {
-            font-family: 'Open Sans';
-            font-weight: 700;
-            font-size: 0.688em;
-            line-height: 0.938em;
-            letter-spacing: 3.28px;
-            text-align: center;
-            text-decoration: none;
-            color: #A5A5A5;
-
-            @media only screen and (max-width: 500px) {
-        }
+          display: none;
         }
     }
 
+    &--button {
+      display: none;
+      @media only screen and (max-width: 500px) {
+        display: block;
+        border: none;
+        
+      }
+    }
+  }
 }

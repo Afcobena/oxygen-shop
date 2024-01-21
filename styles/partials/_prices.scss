@@ -4,9 +4,9 @@
 
 .prices {
   width: 100%;
-  max-height: 714px;
+  max-height: 44.62em;
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 31.25em) {
     max-height: 100%;
   }
 
@@ -18,7 +18,7 @@
     padding-top: 3.5em;
     padding-bottom: 2.2em;
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 31.25em) {
       padding-top: 1.7em;
     }
   }
@@ -29,23 +29,23 @@
     flex-wrap: wrap;
 
     &--card1 {
-      border: 1px solid #fb3b64;
-      width: 372px;
-      max-height: 461px;
+      border: 0.063em solid #fb3b64;
+      width: 23.25em;
+      max-height: 28.81em;
       position: relative;
 
-      border-radius: 18px;
-      box-shadow: 0px 0px 5px #e8e9ed;
+      border-radius: 1.12em;
+      box-shadow: 0em 0em 0.31em #e8e9ed;
       transition: all 0.3s ease-in-out;
 
       &:hover {
         transform: scale(1.07);
-        box-shadow: 3px 8px 11px 1px rgba(251, 59, 100, 0.27);
+        box-shadow: 0.18em 0.5em 0.688 0.063em rgba(251, 59, 100, 0.27);
       }
 
-      @media only screen and (max-width: 500px) {
-        max-width: 293px;
-        min-height: 251px;
+      @media only screen and (max-width: 31.25em) {
+        max-width: 18.31em;
+        min-height: 15.68em;
         margin-bottom: 4em;
 
         display: flex;
@@ -54,12 +54,12 @@
 
         &:hover {
           transform: scale(1.15);
-          box-shadow: 3px 8px 11px 1px rgba(251, 59, 100, 0.27);
+          box-shadow: 0.18em 0.5em 0.68em 0.063em rgba(251, 59, 100, 0.27);
         }
       }
 
       &__info {
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 31.25em) {
           width: 49%;
         }
 
@@ -80,7 +80,7 @@
             padding-bottom: 1.8em;
             color: #fb3b64;
 
-            @media only screen and (max-width: 500px) {
+            @media only screen and (max-width: 31.25em) {
               padding-bottom: 0;
             }
           }
@@ -88,10 +88,12 @@
       }
 
       &__list {
-        @media only screen and (max-width: 500px) {
+        padding-bottom: 3.5em;
+        @media only screen and (max-width: 31.25em) {
           width: 49%;
           display: inline-block;
           list-style-position: inside;
+          padding-bottom: 0;
         }
 
         &--green {
@@ -103,7 +105,7 @@
           text-align: center;
           padding-bottom: 1.8em;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 31.25em) {
             margin: 0;
             text-align: left;
           }
@@ -118,7 +120,7 @@
           text-align: center;
           padding-bottom: 1.8em;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 31.25em) {
             margin: 0;
             text-align: left;
           }
@@ -126,13 +128,13 @@
       }
 
       &__button {
-        width: 150px;
-        height: 50px;
+        width: 9.37em;
+        height: 3.12em;
         position: absolute;
         bottom: -1.9em;
         right: 8.9em;
         border: #eb476e;
-        border-radius: 23px;
+        border-radius: 1.43em;
         background-color: #eb476e;
 
         font-family: "Open", sans-serif;
@@ -144,33 +146,33 @@
         transition: all 0.3s ease-in-out;
 
         &:hover {
-          box-shadow: 0px 13px 12px 1px rgba(235, 71, 110, 0.27);
+          box-shadow: 0em 0.81em 0.75em 0.063em rgba(235, 71, 110, 0.27);
         }
 
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 31.25em) {
           right: 5.5em;
         }
       }
     }
 
     &--card2 {
-      border: 1px solid #07ace6;
-      width: 372px;
-      max-height: 461px;
+      border: 0.063em solid #07ace6;
+      width: 23.25em;
+      max-height: 28.81em;
       position: relative;
 
-      border-radius: 18px;
-      box-shadow: 0px 0px 5px #e8e9ed;
+      border-radius: 1.12em;
+      box-shadow: 0em 0em 0.31em #e8e9ed;
       transition: all 0.3s ease-in-out;
 
       &:hover {
         transform: scale(1.07);
-        box-shadow: 3px 8px 11px 1px rgba(7, 172, 230, 0.27);
+        box-shadow: 0.18em 0.5em 0.688 0.063em rgba(7, 172, 230, 0.27);
       }
 
-      @media only screen and (max-width: 500px) {
-        max-width: 293px;
-        min-height: 251px;
+      @media only screen and (max-width: 31.25em) {
+        max-width: 18.31em;
+        min-height: 15.68em;
         margin-bottom: 4em;
 
         display: flex;
@@ -179,12 +181,12 @@
 
         &:hover {
           transform: scale(1.15);
-          box-shadow: 3px 8px 11px 1px rgba(7, 172, 230, 0.27);
+          box-shadow: 0.18em 0.5em 0.68em 0.063em rgba(7, 172, 230, 0.27);
         }
       }
 
       &__info {
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 31.25em) {
           width: 49%;
         }
 
@@ -195,7 +197,7 @@
           text-align: center;
           padding: 1em 0;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 31.25em) {
             font-size: 1.15em;
           }
         }
@@ -203,7 +205,7 @@
         &--amount2 {
           padding-bottom: 1.8em;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 31.25em) {
             padding-bottom: 0;
           }
 
@@ -215,7 +217,7 @@
             color: #07ace6;
             padding-bottom: 0.2em;
 
-            @media only screen and (max-width: 500px) {
+            @media only screen and (max-width: 31.25em) {
               padding-bottom: 0;
             }
           }
@@ -231,7 +233,7 @@
       }
 
       &__list {
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 31.25em) {
           width: 49%;
           display: inline-block;
           list-style-position: inside;
@@ -246,7 +248,7 @@
           text-align: center;
           padding-bottom: 1.8em;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 31.25em) {
             margin: 0;
             text-align: left;
           }
@@ -261,7 +263,7 @@
           text-align: center;
           padding-bottom: 1.8em;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 31.25em) {
             margin: 0;
             text-align: left;
           }
@@ -269,13 +271,13 @@
       }
 
       &__button {
-        width: 150px;
-        height: 50px;
+        width: 9.375em;
+        height: 3.125em;
         position: absolute;
         bottom: -1.9em;
         right: 8.9em;
         border: #07ace6;
-        border-radius: 23px;
+        border-radius: 1.43em;
         background-color: #07ace6;
 
         font-family: "Open", sans-serif;
@@ -287,33 +289,33 @@
         transition: all 0.3s ease-in-out;
 
         &:hover {
-          box-shadow: 3px 8px 11px 1px rgba(7, 172, 230, 0.27);
+          box-shadow: 0em 0.81em 0.75em 0.063em rgba(7, 172, 230, 0.27);
         }
 
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 31.25em) {
           right: 5.5em;
         }
       }
     }
 
     &--card3 {
-      border: 1px solid #55dfb4;
-      width: 372px;
-      max-height: 461px;
+      border: 0.063em solid #55dfb4;
+      width: 23.25em;
+      max-height: 28.81em;
       position: relative;
 
-      border-radius: 18px;
-      box-shadow: 0px 0px 5px #e8e9ed;
+      border-radius: 1.12em;
+      box-shadow: 0em 0em 0.31em #e8e9ed;
       transition: all 0.3s ease-in-out;
 
       &:hover {
         transform: scale(1.07);
-        box-shadow: 3px 8px 11px 1px rgba(85, 223, 180, 0.27);
+        box-shadow: 0.18em 0.5em 0.688 0.063em rgba(85, 223, 180, 0.27);
       }
 
-      @media only screen and (max-width: 500px) {
-        max-width: 293px;
-        min-height: 251px;
+      @media only screen and (max-width: 31.25em) {
+        max-width: 18.31em;
+        min-height: 15.68em;
         margin-bottom: 4em;
 
         display: flex;
@@ -322,12 +324,12 @@
 
         &:hover {
           transform: scale(1.15);
-          box-shadow: 3px 8px 11px 1px rgba(251, 59, 100, 0.27);
+          box-shadow: 0.18em 0.5em 0.68em 0.063em rgba(251, 59, 100, 0.27);
         }
       }
 
       &__info {
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 31.25em) {
           width: 49%;
         }
 
@@ -342,7 +344,7 @@
         &--amount3 {
           padding-bottom: 1.8em;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 31.25em) {
             padding-bottom: 0;
           }
 
@@ -354,8 +356,8 @@
             color: #55dfb4;
             padding-bottom: 0.2em;
 
-            @media only screen and (max-width: 500px) {
-                padding-bottom: 0;
+            @media only screen and (max-width: 31.25em) {
+              padding-bottom: 0;
             }
           }
 
@@ -370,11 +372,11 @@
       }
 
       &__list {
-        @media only screen and (max-width: 500px) {
-            width: 49%;
-            display: inline-block;
-            list-style-position: inside;
-          }
+        @media only screen and (max-width: 31.25em) {
+          width: 49%;
+          display: inline-block;
+          list-style-position: inside;
+        }
 
         &--green {
           max-width: fit-content;
@@ -385,7 +387,7 @@
           text-align: center;
           padding-bottom: 1.8em;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 31.25em) {
             margin: 0;
             text-align: left;
           }
@@ -393,13 +395,13 @@
       }
 
       &__button {
-        width: 150px;
-        height: 50px;
+        width: 9.37em;
+        height: 3.12em;
         position: absolute;
         bottom: -1.9em;
         right: 8.9em;
         border: #55dfb4;
-        border-radius: 23px;
+        border-radius: 1.43em;
         background-color: #55dfb4;
 
         font-family: "Open", sans-serif;
@@ -411,12 +413,12 @@
         transition: all 0.3s ease-in-out;
 
         &:hover {
-          box-shadow: 0px 13px 12px 1px rgba(85, 223, 180, 0.27);
+          box-shadow: 0em 0.81em 0.75em 0.063em rgba(85, 223, 180, 0.27);
         }
 
-        @media only screen and (max-width: 500px) {
-            right: 5.5em;
-          }
+        @media only screen and (max-width: 31.25em) {
+          right: 5.5em;
+        }
       }
     }
   }

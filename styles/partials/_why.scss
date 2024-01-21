@@ -12,11 +12,11 @@
 
     &__open {
 
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 31.25em) {
 
-            max-width: 310px;
-            margin-left: 33px;
-            margin-right: 33px;
+            max-width: 19.37em;
+            margin-left: 2.063em;
+            margin-right: 2.063em;
         }
 
         &--title {
@@ -25,7 +25,7 @@
             font-size: 3.063em;
             text-align: center;
 
-            padding-bottom: 27px;
+            padding-bottom: 1.688em;
         }
 
         &--text {
@@ -34,7 +34,7 @@
             font-size: 1em;
             line-height: 1.375em;
             text-align: center;
-            padding-bottom: 37px;
+            padding-bottom: 2.313em;
         }
 
 
@@ -43,9 +43,9 @@
             background-color: #08A6E4;
 
             padding: 1em 8em;
-            border: 1px solid #08A6E4;
-            border-radius: 40px;
-            box-shadow: 0px 13px 6px  #07ACE64A;
+            border: 0.063em solid #08A6E4;
+            border-radius: 2.5em;
+            box-shadow: 0em 0.813em 0.375em  #07ACE64A;
             
             font-family: 'Open', sans-serif;
             font-weight: 700;
@@ -54,7 +54,7 @@
             text-align: center;
             color: #FFFF;
 
-            @media only screen and (max-width: 500px) {
+            @media only screen and (max-width: 31.25em) {
             padding: 1em 5.5em;
             }
         }
@@ -67,14 +67,9 @@
             width: 100%;
             object-position: 25% 50%;
 
-            @media only screen and (max-width: 500px) {
-
-            }
-
-
         }
 
-            @media only screen and (max-width: 500px) {
+            @media only screen and (max-width: 31.25em) {
                 max-width: 100%;
               }
     }
@@ -83,7 +78,7 @@
         width: 100%;
         padding-bottom: 6em;
 
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 31.25em) {
             padding-bottom: 4em;
             }
         
@@ -95,10 +90,10 @@
             line-height: 2.625em;
             text-align: center;
 
-            @media only screen and (max-width: 500px) {
+            @media only screen and (max-width: 31.25em) {
                 font-size: 1.875em;
                 font-weight: 300;
-                line-height: 35px;
+                line-height: 2.188em;
                 width: 70%;
                 padding-top: 2em;
               }
@@ -107,9 +102,9 @@
         &--grid {
             display: flex;
             padding-top: 4.82em;
-            max-width: 1060px;
+            max-width: 66.25em;
 
-             @media only screen and (max-width: 500px) {
+             @media only screen and (max-width: 31.25em) {
                 flex-direction: column;
                 padding-top: 2.8em;
               } 
@@ -121,7 +116,7 @@
             align-items: center;
             position: relative;
 
-            @media only screen and (max-width: 500px) {
+            @media only screen and (max-width: 31.25em) {
                 padding-bottom: 2em;
                 }
 
@@ -129,16 +124,16 @@
                 &--logo {
 
                     &__red {
-                        height: 62.71px;
-                        width: 62.71px;
+                        height: 3.919em;
+                        width: 3.919em;
                         background-color: #FB3B64;
                         border-radius: 50%;
                     }
 
                     &__figure {
                         position: absolute;
-                        top: 13px;
-                        right: 16px;
+                        top: 0.813em;
+                        right: 1em;
 
 
                     }
@@ -173,7 +168,7 @@
                 align-items: center;
                 position: relative;
 
-                @media only screen and (max-width: 500px) {
+                @media only screen and (max-width: 31.25em) {
                     padding-bottom: 2em;
                     }
 
@@ -181,16 +176,16 @@
                 &--logo {
 
                     &__blue {
-                        height: 62.71px;
-                        width: 62.71px;
+                        height: 3.919em;
+                        width: 3.919em;
                         background-color: #08A6E4;
                         border-radius: 50%;
                     }
 
                     &__figure {
                         position: absolute;
-                        top: 13px;
-                        right: 17px;
+                        top: 0.813em;
+                        right: 1.063em;
 
                     }
 
@@ -229,16 +224,16 @@
                 &--logo {
 
                     &__green {
-                        height: 62.71px;
-                        width: 62.71px;
+                        height: 3.919em;
+                        width: 3.919em;
                         background-color: #55DFB4;
                         border-radius: 50%;
                     }
 
                     &__figure {
                         position: absolute;
-                        top: 5px;
-                        right: 3px;
+                        top: 0.313em;
+                        right: 0.188em;
 
                     }
 

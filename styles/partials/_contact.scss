@@ -1,195 +1,172 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Raleway:wght@400;700;800&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;400;600;700;900&family=Raleway:wght@300&display=swap");
 
 .contact {
-    max-width: 896px;
-    margin-top: 11em;
-    margin-bottom: 5em;
-    display: flex;
+  max-width: 896px;
+  margin-top: 11em;
+  margin-bottom: 5em;
+  display: flex;
 
-    @media only screen and (max-width: 500px) {
-        display: block;
-        margin: 0 33px;
-        margin-bottom: 3.5em;
-    } 
+  @media only screen and (max-width: 31.25em) {
+    display: block;
+    margin: 0 33px;
+    margin-bottom: 3.5em;
+  }
 
+  &__info {
+    padding-right: 6.6em;
 
-    &__info {
-        padding-right: 6.6em;
+    @media only screen and (max-width: 31.25em) {
+      padding-right: 0;
+    }
 
-        @media only screen and (max-width: 500px) {
-            padding-right: 0;
-        } 
+    &--title {
+      font-family: "Raleway";
+      font-weight: 400;
+      font-size: 3.063em;
+      padding-bottom: 0.5em;
 
-        &--title {
-            font-family: 'Raleway';
-            font-weight: 400;
-            font-size: 3.063em;
-            padding-bottom: 0.5em;
+      @media only screen and (max-width: 31.25em) {
+        font-size: 2.5em;
+      }
+    }
 
-            @media only screen and (max-width: 500px) {
-                font-size: 40px;
-            } 
+    &--text {
+      font-family: "Open", sans-serif;
+      font-weight: 400;
+      font-size: 1em;
+      padding-bottom: 2.4em;
+    }
+
+    &--data {
+      display: flex;
+
+      @media only screen and (max-width: 31.25em) {
+        flex-direction: column;
+        margin: 0;
+        margin-left: 10;
+        margin-bottom: 3em;
+        width: fit-content;
+      }
+
+      &__left {
+        display: flex;
+        align-items: center;
+        gap: 0.7em;
+
+        &--email {
+          font-weight: 600;
+          font-size: 1em;
+          color: #a5a5a5;
+
+          @media only screen and (max-width: 31.25em) {
+            max-width: 5.56em;
+          }
+        }
+      }
+
+      &__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.7em;
+
+        &--number {
+          font-family: "Open", sans-serif;
+          font-weight: 600;
+          font-size: 1em;
+          color: #a5a5a5;
+        }
+      }
+    }
+  }
+
+  &__us {
+    max-width: 27.5em;
+    max-height: 23.5em;
+
+    &--form {
+      &__inputs {
+        #label-name {
+          display: block;
+          font-family: "Open", sans-serif;
+          font-weight: 600;
+          font-size: 0.68em;
+          letter-spacing: 0.205em;
+          padding-bottom: 1.8em;
+          color: #08a6e4;
+        }
+
+        #name {
+          border: none;
+          border-bottom: 0.063em solid #95989a;
+          display: block;
+          width: 100%;
+        }
+
+        #label-email {
+          display: block;
+          font-family: "Open", sans-serif;
+          font-weight: 600;
+          font-size: 0.68em;
+          letter-spacing: 0.205em;
+          padding-top: 3.8em;
+          padding-bottom: 2em;
+          color: #08a6e4;
+        }
+
+        #email {
+          border: none;
+          border-bottom: 0.063em solid #95989a;
+          display: block;
+          width: 100%;
+        }
+      }
+
+      &__policy {
+        padding-top: 2em;
+        display: flex;
+
+        #check {
+          width: 1.5em;
+          height: 1.5em;
+          border-radius: 1em;
+
+          &:checked {
+            accent-color: #fff;
+          }
         }
 
         &--text {
-            font-family: 'Open', sans-serif;
-            font-weight: 400;
-            font-size: 1em;    
-            padding-bottom: 2.4em;
+          width: 90%;
+          display: inline-block;
+          font-family: "Open", sans-serif;
+          font-weight: 400;
+          font-size: 0.75em;
+          padding-bottom: 2em;
+          color: #707070;
         }
+      }
 
-        &--data {
-            display: flex;
+      &__button {
+        display: block;
+        font-family: "Open", sans-serif;
+        font-weight: 700;
+        font-size: 0.813em;
+        letter-spacing: 0.205em;
+        padding: 1.25em 6.06em;
+        border-radius: 2.18em;
+        border-color: #08a6e4;
+        color: #fff;
+        background-color: #08a6e4;
+        margin-right: 0;
+        transition: all 0.3s ease-in-out;
 
-            @media only screen and (max-width: 500px) {
-                flex-direction: column;
-                margin: 0;
-                margin-left: 10;
-                margin-bottom: 3em;
-                width: fit-content;
-            } 
-
-            &__left {
-                display: flex;
-                align-items: center;
-                gap: 0.7em;
-
-
-                &--email {
-                    font-weight: 600;
-                    font-size: 1em;    
-                    color: #A5A5A5;
-
-                    @media only screen and (max-width: 500px) {
-                        max-width: 89px;
-                        } 
-                    
-                }
-            }
-
-            &__right {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 0.7em;
-
-                &--number {
-                    font-family: 'Open', sans-serif;
-                    font-weight: 600;
-                    font-size: 1em;    
-                    color: #A5A5A5;
-
-                }
-
-            }
+        &:hover {
+          box-shadow: oem 0.81em 0.75em #07ace64a;
         }
-
+      }
     }
-
-    &__us {
-        max-width: 440px;
-        max-height: 376px;
-
-        &--form {
-
-            &__inputs {
-
-                #label-name {
-                    display: block;
-                    font-family: 'Open', sans-serif;
-                    font-weight: 600;
-                    font-size: 0.68em;    
-                    letter-spacing: 0.205em;
-                    padding-bottom: 1.8em;
-                    color: #08A6E4;
-                    
-                }
-
-                #name {
-                    border: none;
-                    border-bottom: 1px solid #95989A;;
-                    display: block;
-                    width: 100%;
-                    
-                    
-                }
-
-                #label-email {
-                    display: block;
-                    font-family: 'Open', sans-serif;
-                    font-weight: 600;
-                    font-size: 0.68em;    
-                    letter-spacing: 0.205em;
-                    padding-top: 3.8em;
-                    padding-bottom: 2em;
-                    color: #08A6E4;
-                }
-
-                #email {
-                    border: none;
-                    border-bottom: 1px solid #95989A;;
-                    display: block;
-                    width: 100%;
-                    
-                }
-            }
-
-            &__policy {
-                padding-top: 2em;
-                display: flex;//
-                //se puede quitar y modificar altura
-
-                
-                #check {
-                    width: 1.5em;
-                    height: 1.5em;
-                    border-radius: 1em;
-                    
-                    &:checked {
-                        accent-color: #FFF;
-                    }
-                    
-                }
-                
-
-
-
-                &--text {
-                    width: 90%;
-                    display: inline-block;
-                    font-family: 'Open', sans-serif;
-                    font-weight: 400;
-                    font-size: 0.75em;    
-                    padding-bottom: 2em;
-                    color: #707070;
-                }
-            }
-
-            &__button {
-                display: block;
-                font-family: 'Open', sans-serif;
-                font-weight: 700;
-                font-size: 0.813em;    
-                letter-spacing: 0.205em;
-                padding: 20px 97px;
-                border-radius: 35px;
-                border-color: #08A6E4;
-                color: #FFF;
-                background-color: #08A6E4;
-                margin-right: 0;
-                transition: all 0.3s ease-in-out;
-            
-
-                &:hover {
-                    box-shadow: 0px 13px 12px  #07ACE64A;
-                }
-            }
-        }
-
-    }
-
+  }
 }

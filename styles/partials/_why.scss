@@ -45,7 +45,6 @@
             padding: 1em 8em;
             border: 0.063em solid #08A6E4;
             border-radius: 2.5em;
-            box-shadow: 0em 0.813em 0.375em  #07ACE64A;
             
             font-family: 'Open', sans-serif;
             font-weight: 700;
@@ -53,6 +52,10 @@
             line-height: 1.375em;
             text-align: center;
             color: #FFFF;
+            
+            &:hover {
+                box-shadow: 0em 0.813em 0.375em  #07ACE64A;
+            }
 
             @media only screen and (max-width: 31.25em) {
             padding: 1em 5.5em;

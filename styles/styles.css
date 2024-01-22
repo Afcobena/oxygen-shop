@@ -679,7 +679,7 @@
 }
 .prices__grid--cards__lists--greens {
   max-width: fit-content;
-  list-style-image: url(../../public/icons/prices/checkbox.png);
+  list-style-image: url(../../public/checkbox.png);
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.875em;
@@ -694,7 +694,7 @@
 }
 .prices__grid--cards__lists--reds {
   max-width: fit-content;
-  list-style-image: url("cross.png");
+  list-style-image: url(/public/cross.png);
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.875em;

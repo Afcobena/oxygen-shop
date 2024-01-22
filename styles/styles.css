@@ -680,7 +680,7 @@
 .prices__grid--cards__lists--greens {
   max-width: fit-content;
   /* list-style-image: url(../../public/icons/prices/Checkbox.svg); */
-  list-style-image: url(/public/icons/prices/Checkbox.svg);
+  list-style-image: url("/public/icons/prices/Checkbox.svg");
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.875em;
@@ -696,7 +696,7 @@
 .prices__grid--cards__lists--reds {
   max-width: fit-content;
   /* list-style-image: url(../../public/icons/prices/Cross.svg); */
-  list-style-image: url(/public/icons/prices/Cross.svg);
+  list-style-image: url("/public/icons/prices/Cross.svg");
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.875em;

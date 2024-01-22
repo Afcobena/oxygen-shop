@@ -679,8 +679,7 @@
 }
 .prices__grid--cards__lists--greens {
   max-width: fit-content;
-  /* list-style-image: url(../../public/icons/prices/Checkbox.svg); */
-  list-style-image: url("/public/icons/prices/Checkbox.png");
+  list-style-image: url(../../public/icons/prices/checkbox.png);
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.875em;
@@ -695,8 +694,7 @@
 }
 .prices__grid--cards__lists--reds {
   max-width: fit-content;
-  /* list-style-image: url(../../public/icons/prices/Cross.svg); */
-  list-style-image: url("Cross.png");
+  list-style-image: url("cross.png");
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.875em;

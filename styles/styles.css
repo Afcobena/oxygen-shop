@@ -382,7 +382,7 @@
   }
 }
 .benefits__rows--colums__texts {
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 1em;
   padding-bottom: 3em;
@@ -524,7 +524,7 @@
   }
 }
 .benefits__row3--left__text {
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 1em;
   padding-bottom: 3em;
@@ -645,6 +645,7 @@
 }
 .prices__grid--cards__infos--titles {
   font-family: "Raleway";
+  font-family: "Open Sans";
   font-weight: 700;
   font-size: 1.25em;
   text-align: center;
@@ -652,7 +653,7 @@
   padding-bottom: 1em;
 }
 .prices__grid--cards__infos--amounts__numbers {
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 300;
   font-size: 2.875em;
   text-align: center;
@@ -678,8 +679,9 @@
 }
 .prices__grid--cards__lists--greens {
   max-width: fit-content;
-  list-style-image: url(../../public/icons/prices/Checkbox.svg);
-  font-family: "Open", sans-serif;
+  /* list-style-image: url(../../public/icons/prices/Checkbox.svg); */
+  list-style-image: url(/public/icons/prices/Checkbox.svg);
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.875em;
   text-align: center;
@@ -693,8 +695,9 @@
 }
 .prices__grid--cards__lists--reds {
   max-width: fit-content;
-  list-style-image: url(../../public/icons/prices/Cross.svg);
-  font-family: "Open", sans-serif;
+  /* list-style-image: url(../../public/icons/prices/Cross.svg); */
+  list-style-image: url(/public/icons/prices/Cross.svg);
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.875em;
   text-align: center;
@@ -713,7 +716,7 @@
   bottom: -1.9em;
   right: 8.9em;
   border-radius: 1.43em;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 700;
   font-size: 0.813em;
   text-align: center;
@@ -842,7 +845,7 @@
   }
 }
 .contact__info--text {
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 1em;
   padding-bottom: 2.4em;
@@ -868,7 +871,7 @@
   gap: 0.7em;
 }
 .contact__info--data__colums--texts {
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 600;
   font-size: 1em;
   color: #a5a5a5;
@@ -884,7 +887,7 @@
 }
 .contact__us--form__inputs #labels {
   display: block;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 600;
   font-size: 0.68em;
   letter-spacing: 0.205em;
@@ -916,7 +919,7 @@
 .contact__us--form__policy--text {
   width: 90%;
   display: inline-block;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.75em;
   padding-bottom: 2em;
@@ -924,7 +927,7 @@
 }
 .contact__us--form__button {
   display: block;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 700;
   font-size: 0.813em;
   letter-spacing: 0.205em;
@@ -974,7 +977,7 @@
   color: #08a6e4;
 }
 .footer__logo--rights {
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.68em;
   color: #a5a5a5;

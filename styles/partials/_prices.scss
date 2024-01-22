@@ -61,6 +61,7 @@
 
         &--titles {
           font-family: "Raleway";
+          font-family: 'Open Sans';
           font-weight: 700;
           font-size: 1.25em;
           text-align: center;
@@ -70,7 +71,7 @@
 
         &--amounts {
           &__numbers {
-            font-family: "Open", sans-serif;
+            font-family: 'Open Sans';
             font-weight: 300;
             font-size: 2.875em;
             text-align: center;
@@ -99,8 +100,9 @@
 
         &--greens {
           max-width: fit-content;
-          list-style-image: url(../../public/icons/prices/Checkbox.svg);
-          font-family: "Open", sans-serif;
+          /* list-style-image: url(../../public/icons/prices/Checkbox.svg); */
+          list-style-image: url(/public/icons/prices/Checkbox.svg);
+          font-family: 'Open Sans';
           font-weight: 400;
           font-size: 0.875em;
           text-align: center;
@@ -114,8 +116,9 @@
 
         &--reds {
           max-width: fit-content;
-          list-style-image: url(../../public/icons/prices/Cross.svg);
-          font-family: "Open", sans-serif;
+          /* list-style-image: url(../../public/icons/prices/Cross.svg); */
+          list-style-image: url(/public/icons/prices/Cross.svg);
+          font-family: 'Open Sans';
           font-weight: 400;
           font-size: 0.875em;
           text-align: center;
@@ -136,7 +139,7 @@
         right: 8.9em;
         border-radius: 1.43em;
 
-        font-family: "Open", sans-serif;
+        font-family: 'Open Sans';
         font-weight: 700;
         font-size: 0.813em;
         text-align: center;

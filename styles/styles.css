@@ -149,11 +149,6 @@
   width: 100%;
   padding-bottom: 6em;
 }
-@media only screen and (max-width: 31.25em) {
-  .why__platform {
-    padding-bottom: 4em;
-  }
-}
 .why__platform--title {
   font-family: "Raleway";
   font-weight: 400;
@@ -180,6 +175,46 @@
     flex-direction: column;
     padding-top: 2.8em;
   }
+}
+.why__platform--grid__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media only screen and (max-width: 31.25em) {
+  .why__platform--grid__card {
+    padding-bottom: 2em;
+  }
+}
+.why__platform--grid__card--logo__red {
+  height: 3.919em;
+  width: 3.919em;
+  border-radius: 50%;
+}
+.why__platform--grid__card--logo__figure {
+  position: absolute;
+  top: 0.813em;
+  right: 1em;
+}
+.why__platform--grid__card--amount {
+  padding-top: 0.8em;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+.why__platform--grid__card--text {
+  padding-top: 0.8em;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 1.063em;
+  line-height: 1.25em;
+  text-align: center;
+  color: #A5A5A5;
 }
 .why__platform--grid__card1 {
   display: flex;
@@ -243,7 +278,7 @@
 .why__platform--grid__card2--logo__figure {
   position: absolute;
   top: 0.813em;
-  right: 1.063em;
+  right: 1em;
 }
 .why__platform--grid__card2--amount {
   padding-top: 0.8em;
@@ -305,7 +340,7 @@
   background-color: #f7f7f7;
   padding-bottom: 6.5em;
 }
-.benefits__row1 {
+.benefits__rows {
   max-width: 70.25em;
   max-height: 23.125em;
   background-color: white;
@@ -317,55 +352,58 @@
   box-shadow: 0em 0em 0.31em #e8e9ed;
 }
 @media only screen and (max-width: 31.25em) {
-  .benefits__row1 {
+  .benefits__rows {
     flex-direction: column;
     position: relative;
     margin: 2.81em 2.06em;
   }
 }
-.benefits__row1--left {
+.benefits__rows--colums {
   padding: 5em 2em;
   max-width: 42%;
 }
 @media only screen and (max-width: 31.25em) {
-  .benefits__row1--left {
+  .benefits__rows--colums {
     max-width: 100%;
     padding-top: 12em;
   }
 }
-.benefits__row1--left__title {
+.benefits__rows--colums__titles {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 2.25em;
   padding-bottom: 0.9em;
 }
 @media only screen and (max-width: 31.25em) {
-  .benefits__row1--left__title {
+  .benefits__rows--colums__titles {
     font-size: 1.875em;
   }
 }
-.benefits__row1--left__text {
+.benefits__rows--colums__texts {
   font-family: "Open", sans-serif;
   font-weight: 400;
   font-size: 1em;
   padding-bottom: 3em;
 }
 @media only screen and (max-width: 31.25em) {
-  .benefits__row1--left__text {
+  .benefits__rows--colums__texts {
     font-size: 0.875em;
-    padding-top: 1.7em;
-    padding-bottom: 2em;
   }
 }
-.benefits__row1--left__line {
-  border: 0.125em solid #fb3b64;
+.benefits__rows--colums__lines {
   max-width: 20.43em;
   margin: 0;
 }
 @media only screen and (max-width: 31.25em) {
-  .benefits__row1--left__line {
+  .benefits__rows--colums__lines {
     display: none;
   }
+}
+.benefits__rows--colums__line1 {
+  border: 0.125em solid #fb3b64;
+}
+.benefits__rows--colums__line2 {
+  border: 0.125em solid #08a6e4;
 }
 .benefits__row1--right {
   position: relative;
@@ -401,24 +439,6 @@
     max-width: 12em;
   }
 }
-.benefits__row2 {
-  max-width: 70.25em;
-  max-height: 23.125em;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2.3em;
-  border-radius: 0.25em;
-  box-shadow: 0em 0em 0.31em #e8e9ed;
-}
-@media only screen and (max-width: 31.25em) {
-  .benefits__row2 {
-    flex-direction: column;
-    position: relative;
-    margin: 2.81em 2.06em;
-  }
-}
 .benefits__row2--right {
   padding: 5em 2em;
   max-width: 42%;
@@ -427,38 +447,6 @@
   .benefits__row2--right {
     max-width: 100%;
     padding-top: 2em;
-  }
-}
-.benefits__row2--right__title {
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 2.25em;
-  padding-bottom: 0.9em;
-}
-@media only screen and (max-width: 31.25em) {
-  .benefits__row2--right__title {
-    font-size: 1.875em;
-  }
-}
-.benefits__row2--right__text {
-  font-family: "Open", sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  padding-bottom: 3em;
-}
-@media only screen and (max-width: 31.25em) {
-  .benefits__row2--right__text {
-    font-size: 0.875em;
-  }
-}
-.benefits__row2--right__line {
-  border: 0.125em solid #08a6e4;
-  max-width: 20.43em;
-  margin: 0;
-}
-@media only screen and (max-width: 31.25em) {
-  .benefits__row2--right__line {
-    display: none;
   }
 }
 .benefits__row2--left {
@@ -624,8 +612,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.prices__grid--card1 {
-  border: 0.063em solid #fb3b64;
+.prices__grid--cards {
   width: 23.25em;
   max-height: 28.81em;
   position: relative;
@@ -633,12 +620,11 @@
   box-shadow: 0em 0em 0.31em #e8e9ed;
   transition: all 0.3s ease-in-out;
 }
-.prices__grid--card1:hover {
+.prices__grid--cards:hover {
   transform: scale(1.07);
-  box-shadow: 0.18em 0.5em 0.688 0.063em rgba(251, 59, 100, 0.27);
 }
 @media only screen and (max-width: 31.25em) {
-  .prices__grid--card1 {
+  .prices__grid--cards {
     max-width: 18.31em;
     min-height: 15.68em;
     margin-bottom: 4em;
@@ -646,8 +632,105 @@
     justify-content: center;
     align-items: center;
   }
-  .prices__grid--card1:hover {
+  .prices__grid--cards:hover {
     transform: scale(1.15);
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  .prices__grid--cards__infos {
+    width: 49%;
+  }
+}
+.prices__grid--cards__infos--titles {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.25em;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.prices__grid--cards__infos--amounts__numbers {
+  font-family: "Open", sans-serif;
+  font-weight: 300;
+  font-size: 2.875em;
+  text-align: center;
+}
+@media only screen and (max-width: 31.25em) {
+  .prices__grid--cards__infos--amounts__numbers {
+    padding-bottom: 0;
+  }
+}
+.prices__grid--cards__infos--amounts__offers {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 0.75em;
+  text-align: center;
+  padding-bottom: 3.1em;
+}
+@media only screen and (max-width: 31.25em) {
+  .prices__grid--cards__lists {
+    width: 49%;
+    display: inline-block;
+    list-style-position: inside;
+  }
+}
+.prices__grid--cards__lists--greens {
+  max-width: fit-content;
+  list-style-image: url(../../public/icons/prices/Checkbox.svg);
+  font-family: "Open", sans-serif;
+  font-weight: 400;
+  font-size: 0.875em;
+  text-align: center;
+  padding-bottom: 1.8em;
+}
+@media only screen and (max-width: 31.25em) {
+  .prices__grid--cards__lists--greens {
+    margin: 0;
+    text-align: left;
+  }
+}
+.prices__grid--cards__lists--reds {
+  max-width: fit-content;
+  list-style-image: url(../../public/icons/prices/Cross.svg);
+  font-family: "Open", sans-serif;
+  font-weight: 400;
+  font-size: 0.875em;
+  text-align: center;
+  padding-bottom: 1.8em;
+}
+@media only screen and (max-width: 31.25em) {
+  .prices__grid--cards__lists--reds {
+    margin: 0;
+    text-align: left;
+  }
+}
+.prices__grid--cards__buttons {
+  width: 9.37em;
+  height: 3.12em;
+  position: absolute;
+  bottom: -1.9em;
+  right: 8.9em;
+  border-radius: 1.43em;
+  font-family: "Open", sans-serif;
+  font-weight: 700;
+  font-size: 0.813em;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 31.25em) {
+  .prices__grid--cards__buttons {
+    right: 5.5em;
+  }
+}
+.prices__grid--card1 {
+  border: 0.063em solid #fb3b64;
+}
+.prices__grid--card1:hover {
+  box-shadow: 0.18em 0.5em 0.688 0.063em rgba(251, 59, 100, 0.27);
+}
+@media only screen and (max-width: 31.25em) {
+  .prices__grid--card1:hover {
     box-shadow: 0.18em 0.5em 0.68em 0.063em rgba(251, 59, 100, 0.27);
   }
 }
@@ -656,336 +739,72 @@
     width: 49%;
   }
 }
-.prices__grid--card1__info--title {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 1.25em;
-  text-align: center;
-  padding: 1em 0;
-}
 .prices__grid--card1__info--amount__number {
-  font-family: "Open", sans-serif;
-  font-weight: 300;
-  font-size: 2.875em;
-  text-align: center;
   padding-bottom: 1.8em;
   color: #fb3b64;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card1__info--amount__number {
-    padding-bottom: 0;
-  }
 }
 .prices__grid--card1__list {
   padding-bottom: 3.5em;
 }
 @media only screen and (max-width: 31.25em) {
   .prices__grid--card1__list {
-    width: 49%;
-    display: inline-block;
-    list-style-position: inside;
     padding-bottom: 0;
   }
 }
-.prices__grid--card1__list--green {
-  max-width: fit-content;
-  list-style-image: url(../../public/icons/prices/Checkbox.svg);
-  font-family: "Open", sans-serif;
-  font-weight: 400;
-  font-size: 0.875em;
-  text-align: center;
-  padding-bottom: 1.8em;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card1__list--green {
-    margin: 0;
-    text-align: left;
-  }
-}
-.prices__grid--card1__list--red {
-  max-width: fit-content;
-  list-style-image: url(../../public/icons/prices/Cross.svg);
-  font-family: "Open", sans-serif;
-  font-weight: 400;
-  font-size: 0.875em;
-  text-align: center;
-  padding-bottom: 1.8em;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card1__list--red {
-    margin: 0;
-    text-align: left;
-  }
-}
 .prices__grid--card1__button {
-  width: 9.37em;
-  height: 3.12em;
-  position: absolute;
-  bottom: -1.9em;
-  right: 8.9em;
   border: #eb476e;
-  border-radius: 1.43em;
   background-color: #eb476e;
-  font-family: "Open", sans-serif;
-  font-weight: 700;
-  font-size: 0.813em;
-  text-align: center;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
 }
 .prices__grid--card1__button:hover {
   box-shadow: 0em 0.81em 0.75em 0.063em rgba(235, 71, 110, 0.27);
 }
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card1__button {
-    right: 5.5em;
-  }
-}
 .prices__grid--card2 {
   border: 0.063em solid #07ace6;
-  width: 23.25em;
-  max-height: 28.81em;
-  position: relative;
-  border-radius: 1.12em;
-  box-shadow: 0em 0em 0.31em #e8e9ed;
-  transition: all 0.3s ease-in-out;
 }
 .prices__grid--card2:hover {
-  transform: scale(1.07);
   box-shadow: 0.18em 0.5em 0.688 0.063em rgba(7, 172, 230, 0.27);
 }
 @media only screen and (max-width: 31.25em) {
-  .prices__grid--card2 {
-    max-width: 18.31em;
-    min-height: 15.68em;
-    margin-bottom: 4em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .prices__grid--card2:hover {
-    transform: scale(1.15);
     box-shadow: 0.18em 0.5em 0.68em 0.063em rgba(7, 172, 230, 0.27);
-  }
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card2__info {
-    width: 49%;
-  }
-}
-.prices__grid--card2__info--title {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 1.25em;
-  text-align: center;
-  padding: 1em 0;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card2__info--title {
-    font-size: 1.15em;
   }
 }
 .prices__grid--card2__info--amount2 {
   padding-bottom: 1.8em;
 }
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card2__info--amount2 {
-    padding-bottom: 0;
-  }
-}
 .prices__grid--card2__info--amount2__number {
-  font-family: "Open", sans-serif;
-  font-weight: 300;
-  font-size: 2.875em;
-  text-align: center;
   color: #07ace6;
-  padding-bottom: 0.2em;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card2__info--amount2__number {
-    padding-bottom: 0;
-  }
-}
-.prices__grid--card2__info--amount2__offer {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 0.75em;
-  text-align: center;
-  padding-bottom: 3.1em;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card2__list {
-    width: 49%;
-    display: inline-block;
-    list-style-position: inside;
-  }
-}
-.prices__grid--card2__list--green {
-  max-width: fit-content;
-  list-style-image: url(../../public/icons/prices/Checkbox.svg);
-  font-family: "Open", sans-serif;
-  font-weight: 400;
-  font-size: 0.875em;
-  text-align: center;
-  padding-bottom: 1.8em;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card2__list--green {
-    margin: 0;
-    text-align: left;
-  }
-}
-.prices__grid--card2__list--red {
-  max-width: fit-content;
-  list-style-image: url(../../public/icons/prices/Cross.svg);
-  font-family: "Open", sans-serif;
-  font-weight: 400;
-  font-size: 0.875em;
-  text-align: center;
-  padding-bottom: 1.8em;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card2__list--red {
-    margin: 0;
-    text-align: left;
-  }
 }
 .prices__grid--card2__button {
-  width: 9.375em;
-  height: 3.125em;
-  position: absolute;
-  bottom: -1.9em;
-  right: 8.9em;
   border: #07ace6;
-  border-radius: 1.43em;
   background-color: #07ace6;
-  font-family: "Open", sans-serif;
-  font-weight: 700;
-  font-size: 0.813em;
-  text-align: center;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
 }
 .prices__grid--card2__button:hover {
   box-shadow: 0em 0.81em 0.75em 0.063em rgba(7, 172, 230, 0.27);
 }
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card2__button {
-    right: 5.5em;
-  }
-}
 .prices__grid--card3 {
   border: 0.063em solid #55dfb4;
-  width: 23.25em;
-  max-height: 28.81em;
-  position: relative;
-  border-radius: 1.12em;
-  box-shadow: 0em 0em 0.31em #e8e9ed;
-  transition: all 0.3s ease-in-out;
 }
 .prices__grid--card3:hover {
-  transform: scale(1.07);
   box-shadow: 0.18em 0.5em 0.688 0.063em rgba(85, 223, 180, 0.27);
 }
 @media only screen and (max-width: 31.25em) {
-  .prices__grid--card3 {
-    max-width: 18.31em;
-    min-height: 15.68em;
-    margin-bottom: 4em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .prices__grid--card3:hover {
-    transform: scale(1.15);
-    box-shadow: 0.18em 0.5em 0.68em 0.063em rgba(251, 59, 100, 0.27);
+    box-shadow: 0.18em 0.5em 0.68em 0.063em rgba(85, 223, 180, 0.27);
   }
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card3__info {
-    width: 49%;
-  }
-}
-.prices__grid--card3__info--title {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 1.25em;
-  text-align: center;
-  padding: 1em 0;
 }
 .prices__grid--card3__info--amount3 {
   padding-bottom: 1.8em;
 }
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card3__info--amount3 {
-    padding-bottom: 0;
-  }
-}
 .prices__grid--card3__info--amount3__number {
-  font-family: "Open", sans-serif;
-  font-weight: 300;
-  font-size: 2.875em;
-  text-align: center;
   color: #55dfb4;
-  padding-bottom: 0.2em;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card3__info--amount3__number {
-    padding-bottom: 0;
-  }
-}
-.prices__grid--card3__info--amount3__offer {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 0.75em;
-  text-align: center;
-  padding-bottom: 3.1em;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card3__list {
-    width: 49%;
-    display: inline-block;
-    list-style-position: inside;
-  }
-}
-.prices__grid--card3__list--green {
-  max-width: fit-content;
-  list-style-image: url(../../public/icons/prices/Checkbox.svg);
-  font-family: "Open", sans-serif;
-  font-weight: 400;
-  font-size: 0.875em;
-  text-align: center;
-  padding-bottom: 1.8em;
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card3__list--green {
-    margin: 0;
-    text-align: left;
-  }
 }
 .prices__grid--card3__button {
-  width: 9.37em;
-  height: 3.12em;
-  position: absolute;
-  bottom: -1.9em;
-  right: 8.9em;
   border: #55dfb4;
-  border-radius: 1.43em;
   background-color: #55dfb4;
-  font-family: "Open", sans-serif;
-  font-weight: 700;
-  font-size: 0.813em;
-  text-align: center;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
 }
 .prices__grid--card3__button:hover {
   box-shadow: 0em 0.81em 0.75em 0.063em rgba(85, 223, 180, 0.27);
-}
-@media only screen and (max-width: 31.25em) {
-  .prices__grid--card3__button {
-    right: 5.5em;
-  }
 }
 
 .contact {
@@ -1028,6 +847,8 @@
 }
 .contact__info--data {
   display: flex;
+  align-items: center;
+  gap: 1.3em;
 }
 @media only screen and (max-width: 31.25em) {
   .contact__info--data {
@@ -1038,12 +859,14 @@
     width: fit-content;
   }
 }
-.contact__info--data__left {
+.contact__info--data__colums {
+  margin: 0;
   display: flex;
   align-items: center;
   gap: 0.7em;
 }
-.contact__info--data__left--email {
+.contact__info--data__colums--texts {
+  font-family: "Open", sans-serif;
   font-weight: 600;
   font-size: 1em;
   color: #a5a5a5;
@@ -1053,23 +876,11 @@
     max-width: 5.56em;
   }
 }
-.contact__info--data__right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.7em;
-}
-.contact__info--data__right--number {
-  font-family: "Open", sans-serif;
-  font-weight: 600;
-  font-size: 1em;
-  color: #a5a5a5;
-}
 .contact__us {
   max-width: 27.5em;
   max-height: 23.5em;
 }
-.contact__us--form__inputs #label-name {
+.contact__us--form__inputs #labels {
   display: block;
   font-family: "Open", sans-serif;
   font-weight: 600;
@@ -1078,27 +889,15 @@
   padding-bottom: 1.8em;
   color: #08a6e4;
 }
-.contact__us--form__inputs #name {
+.contact__us--form__inputs--names {
   border: none;
   border-bottom: 0.063em solid #95989a;
   display: block;
   width: 100%;
 }
-.contact__us--form__inputs #label-email {
-  display: block;
-  font-family: "Open", sans-serif;
-  font-weight: 600;
-  font-size: 0.68em;
-  letter-spacing: 0.205em;
+.contact__us--form__inputs--label {
   padding-top: 3.8em;
-  padding-bottom: 2em;
-  color: #08a6e4;
-}
-.contact__us--form__inputs #email {
-  border: none;
-  border-bottom: 0.063em solid #95989a;
-  display: block;
-  width: 100%;
+  padding-bottom: 1.8em;
 }
 .contact__us--form__policy {
   padding-top: 2em;

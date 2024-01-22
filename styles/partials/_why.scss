@@ -78,9 +78,7 @@
         width: 100%;
         padding-bottom: 6em;
 
-        @media only screen and (max-width: 31.25em) {
-            padding-bottom: 4em;
-            }
+
         
 
         &--title {
@@ -109,8 +107,8 @@
                 padding-top: 2.8em;
               } 
 
-            &__card1 {
-            display: flex;
+               &__card {
+                display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -126,7 +124,6 @@
                     &__red {
                         height: 3.919em;
                         width: 3.919em;
-                        background-color: #FB3B64;
                         border-radius: 50%;
                     }
 
@@ -159,107 +156,159 @@
                     text-align: center;
                     color: #A5A5A5;
                 }
-            }
 
-            &__card2 {
+              }
+
+              &__card1 {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 position: relative;
-
+    
                 @media only screen and (max-width: 31.25em) {
                     padding-bottom: 2em;
                     }
-
-
-                &--logo {
-
-                    &__blue {
-                        height: 3.919em;
-                        width: 3.919em;
-                        background-color: #08A6E4;
-                        border-radius: 50%;
+    
+    
+                    &--logo {
+    
+                        &__red {
+                            height: 3.919em;
+                            width: 3.919em;
+                            background-color: #FB3B64; //this
+                            border-radius: 50%;
+                        }
+    
+                        &__figure {
+                            position: absolute;
+                            top: 0.813em;
+                            right: 1em;
+    
+    
+                        }
                     }
-
-                    &__figure {
-                        position: absolute;
-                        top: 0.813em;
-                        right: 1.063em;
-
+    
+                    &--amount {
+                        padding-top: 0.8em;
+                        font-family: 'Raleway';
+                        font-weight: 800;
+                        font-size: 1.25em;
+                        line-height: 1.5em;
+                        text-align: center;
+                        letter-spacing: 0.3em;
+                        
                     }
-
-                }
-
-                &--amount {
-                    padding-top: 0.8em;
-                    font-family: 'Raleway';
-                    font-weight: 800;
-                    font-size: 1.25em;
-                    line-height: 1.5em;
-                    text-align: center;
-                    letter-spacing: 0.3em;
-                    
-                }
-
-                &--text {
-                    padding-top: 0.8em;
-                    font-family: 'Raleway';
-                    font-weight: 400;
-                    font-size: 1.063em;
-                    line-height: 1.25em;
-                    text-align: center;
-                    color: #A5A5A5;
-                }
-            }
-            
-            &__card3 {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-
-
-                &--logo {
-
-                    &__green {
-                        height: 3.919em;
-                        width: 3.919em;
-                        background-color: #55DFB4;
-                        border-radius: 50%;
+    
+                    &--text {
+                        padding-top: 0.8em;
+                        font-family: 'Raleway';
+                        font-weight: 400;
+                        font-size: 1.063em;
+                        line-height: 1.25em;
+                        text-align: center;
+                        color: #A5A5A5;
                     }
-
-                    &__figure {
-                        position: absolute;
-                        top: 0.313em;
-                        right: 0.188em;
-
+                }
+    
+                &__card2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+    
+                    @media only screen and (max-width: 31.25em) {
+                        padding-bottom: 2em;
+                        }
+    
+                    &--logo {
+    
+                        &__blue {
+                            height: 3.919em;
+                            width: 3.919em;
+                            background-color: #08A6E4;  // keeping this
+                            border-radius: 50%;
+                        }
+    
+                        &__figure {
+                            position: absolute;
+                            top: 0.813em;
+                            right: 1em;
+    
+                        }
+    
                     }
-
+    
+                    &--amount {
+                        padding-top: 0.8em;
+                        font-family: 'Raleway';
+                        font-weight: 800;
+                        font-size: 1.25em;
+                        line-height: 1.5em;
+                        text-align: center;
+                        letter-spacing: 0.3em;
+                        
+                    }
+    
+                    &--text {
+                        padding-top: 0.8em;
+                        font-family: 'Raleway';
+                        font-weight: 400;
+                        font-size: 1.063em;
+                        line-height: 1.25em;
+                        text-align: center;
+                        color: #A5A5A5;
+                    }
                 }
-
-                &--amount {
-                    padding-top: 0.8em;
-                    font-family: 'Raleway';
-                    font-weight: 800;
-                    font-size: 1.25em;
-                    line-height: 1.5em;
-                    text-align: center;
-                    letter-spacing: 0.3em;
-                    
-                }
-
-                &--text {
-                    padding-top: 0.8em;
-                    font-family: 'Raleway';
-                    font-weight: 400;
-                    font-size: 1.063em;
-                    line-height: 1.25em;
-                    text-align: center;
-                    color: #A5A5A5;
+                
+                &__card3 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+    
+    
+                    &--logo {
+    
+                        &__green {
+                            height: 3.919em;
+                            width: 3.919em;
+                            background-color: #55DFB4;  // keeping this
+                            border-radius: 50%;
+                        }
+    
+                        &__figure {
+                            position: absolute;
+                            top: 0.313em;  // keeping this
+                            right: 0.188em;  // keeping this
+    
+                        }
+    
+                    }
+    
+                    &--amount {
+                        padding-top: 0.8em;
+                        font-family: 'Raleway';
+                        font-weight: 800;
+                        font-size: 1.25em;
+                        line-height: 1.5em;
+                        text-align: center;
+                        letter-spacing: 0.3em;
+                        
+                    }
+    
+                    &--text {
+                        padding-top: 0.8em;
+                        font-family: 'Raleway';
+                        font-weight: 400;
+                        font-size: 1.063em;
+                        line-height: 1.25em;
+                        text-align: center;
+                        color: #A5A5A5;
+                    }
                 }
             }
         }
     }
-}

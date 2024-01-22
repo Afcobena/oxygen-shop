@@ -7,7 +7,7 @@
   background-color: #f7f7f7;
   padding-bottom: 6.5em;
 
-  &__row1 {
+  &__rows {
     max-width: 70.25em;
     max-height: 23.125em;
     background-color: #ffff;
@@ -25,7 +25,7 @@
       margin: 2.81em 2.06em;
     }
 
-    &--left {
+    &--colums {
       padding: 5em 2em;
       max-width: 42%;
 
@@ -34,7 +34,7 @@
         padding-top: 12em;
       }
 
-      &__title {
+      &__titles {
         font-family: "Raleway";
         font-weight: 400;
         font-size: 2.25em;
@@ -45,7 +45,7 @@
         }
       }
 
-      &__text {
+      &__texts {
         font-family: "Open", sans-serif;
         font-weight: 400;
         font-size: 1em;
@@ -53,13 +53,10 @@
 
         @media only screen and (max-width: 31.25em) {
           font-size: 0.875em;
-          padding-top: 1.7em;
-          padding-bottom: 2em;
         }
       }
 
-      &__line {
-        border: 0.125em solid #fb3b64;
+      &__lines {
         max-width: 20.43em;
         margin: 0;
 
@@ -67,8 +64,18 @@
           display: none;
         }
       }
-    }
 
+      &__line1 {
+        border: 0.125em solid #fb3b64;
+      }
+
+      &__line2 {
+        border: 0.125em solid #08a6e4;
+      }
+    }
+  }
+
+  &__row1 {
     &--right {
       position: relative;
       padding-top: 0.2em;
@@ -110,23 +117,6 @@
   }
 
   &__row2 {
-    max-width: 70.25em;
-    max-height: 23.125em;
-    background-color: #ffff;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2.3em;
-    border-radius: 0.25em;
-    box-shadow: 0em 0em 0.31em #e8e9ed;
-
-    @media only screen and (max-width: 31.25em) {
-      flex-direction: column;
-      position: relative;
-      margin: 2.81em 2.06em;
-    }
-
     &--right {
       padding: 5em 2em;
       max-width: 42%;
@@ -134,38 +124,6 @@
       @media only screen and (max-width: 31.25em) {
         max-width: 100%;
         padding-top: 2em;
-      }
-
-      &__title {
-        font-family: "Raleway";
-        font-weight: 400;
-        font-size: 2.25em;
-        padding-bottom: 0.9em;
-
-        @media only screen and (max-width: 31.25em) {
-          font-size: 1.875em;
-        }
-      }
-
-      &__text {
-        font-family: "Open", sans-serif;
-        font-weight: 400;
-        font-size: 1em;
-        padding-bottom: 3em;
-
-        @media only screen and (max-width: 31.25em) {
-          font-size: 0.875em;
-        }
-      }
-
-      &__line {
-        border: 0.125em solid #08a6e4;
-        max-width: 20.43em;
-        margin: 0;
-
-        @media only screen and (max-width: 31.25em) {
-          display: none;
-        }
       }
     }
 

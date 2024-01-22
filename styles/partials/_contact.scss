@@ -41,6 +41,8 @@
 
     &--data {
       display: flex;
+      align-items: center;
+      gap: 1.3em;
 
       @media only screen and (max-width: 31.25em) {
         flex-direction: column;
@@ -50,33 +52,25 @@
         width: fit-content;
       }
 
-      &__left {
+      &__colums {
+        margin: 0;
         display: flex;
         align-items: center;
         gap: 0.7em;
 
-        &--email {
-          font-weight: 600;
-          font-size: 1em;
-          color: #a5a5a5;
-
-          @media only screen and (max-width: 31.25em) {
-            max-width: 5.56em;
-          }
-        }
-      }
-
-      &__right {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 0.7em;
-
-        &--number {
+        &--texts {
           font-family: "Open", sans-serif;
           font-weight: 600;
           font-size: 1em;
           color: #a5a5a5;
+        }
+      }
+
+      &__left {
+        &--email {
+          @media only screen and (max-width: 31.25em) {
+            max-width: 5.56em;
+          }
         }
       }
     }
@@ -88,7 +82,7 @@
 
     &--form {
       &__inputs {
-        #label-name {
+        #labels {
           display: block;
           font-family: "Open", sans-serif;
           font-weight: 600;
@@ -98,29 +92,16 @@
           color: #08a6e4;
         }
 
-        #name {
+        &--names {
           border: none;
           border-bottom: 0.063em solid #95989a;
           display: block;
           width: 100%;
         }
 
-        #label-email {
-          display: block;
-          font-family: "Open", sans-serif;
-          font-weight: 600;
-          font-size: 0.68em;
-          letter-spacing: 0.205em;
+        &--label {
           padding-top: 3.8em;
-          padding-bottom: 2em;
-          color: #08a6e4;
-        }
-
-        #email {
-          border: none;
-          border-bottom: 0.063em solid #95989a;
-          display: block;
-          width: 100%;
+          padding-bottom: 1.8em;
         }
       }
 
